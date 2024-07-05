@@ -28,7 +28,7 @@ const CustomerSays = () => {
          <Slider {...settings} >
               <div className="">
                 <div className="c-says-img mb-4">
-                  <img src="assets/images/icons/icon-1.jpg" alt="" />
+                  <img src="./src/assets/images/icons/icon-1.jpg" alt="" />
                 </div>
                 <div className="card">
                   <div className="c-says-warp">
@@ -48,7 +48,7 @@ const CustomerSays = () => {
 
               <div >
                 <div className="c-says-img mb-4">
-                  <img src="assets/images/icons/icon-2.jpg" alt="" />
+                  <img src="./src/assets/images/icons/icon-2.jpg" alt="" />
                 </div>
                 <div className="card" style={{height:"20rem"}}>
                   <div className="c-says-warp">
@@ -70,7 +70,7 @@ const CustomerSays = () => {
 
               <div>
                 <div className="c-says-img mb-4">
-                  <img src="assets/images/icons/icon-3.jpg" alt="" />
+                  <img src="./src/assets/images/icons/icon-3.jpg" alt="" />
                 </div>
                 <div className="card">
                   <div className="c-says-warp">
