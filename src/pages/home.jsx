@@ -13,7 +13,7 @@ const Home = () => {
     </ol>
     <div className="carousel-inner" role="listbox">
       {/* Slider 1 */}
-      <div className="carousel-item active" style={{backgroundImage: 'url("./public/assets/images/slider/img-1.jpg")'}}>
+      <div className="carousel-item active" style={{backgroundImage: 'url("assets/images/slider/img-1.jpg")'}}>
         <div className="carousel-caption">
           <div className="container">
             <h3>Project Management <span className="color-primary">Services</span></h3>
@@ -21,7 +21,7 @@ const Home = () => {
         </div>
       </div>
       {/* Slider 2 */}
-      <div className="carousel-item" style={{backgroundImage: 'url("./public/assets/images/slider/img-2.jpg")'}}>
+      <div className="carousel-item" style={{backgroundImage: 'url("assets/images/slider/img-2.jpg")'}}>
         <div className="carousel-caption">
           <div className="container">
             <h3>Implementation, Upgrade, Support Services <span className="color-primary">&amp; 24X7 Infra Support Services </span></h3>
@@ -29,7 +29,7 @@ const Home = () => {
         </div>
       </div>
       {/* Slider 3 */}
-      <div className="carousel-item" style={{backgroundImage: 'url("./public/assets/images/slider/img-3.jpg")'}}>
+      <div className="carousel-item" style={{backgroundImage: 'url("assets/images/slider/img-3.jpg")'}}>
         <div className="carousel-caption">
           <div className="container">
             <h3>Testing Services - Test Planning/Execution, <span className="color-primary">Automation, Perf Testing </span></h3>
@@ -210,9 +210,9 @@ const Home = () => {
           <div className="col-lg-4">
             <div className="video-btn">
               <div className="img-bg">
-                <img className="w-100" src="./public/assets/images/img-1.jpg" alt="" />
+                <img className="w-100" src="assets/images/img-1.jpg" alt="" />
               </div>
-              <button type="button" id="clickplay" className="btn btn-lg btn-primary" data-toggle="modal" data-target="#video">
+              <button type="button" id="clickplay" className="btn btn-lg btn-primary " data-toggle="modal" data-target="#video">
                 <i className="mdi mdi-play-speed mdi-40px" />
               </button>
             </div>
@@ -239,13 +239,13 @@ const Home = () => {
         </div>*/}
               <div className="about-us-content">
                 <h1>Lorvish Technologies Difference </h1>
-                <p> <img src="./public/assets/images/bullet.jpg" /> &nbsp; &nbsp; Pioneered a 24 x 7 ASSEMBLY LINE GLOBAL RECRUITING MODEL that can be quickly adopted to individual client needs</p>
-                <p> <img src="./public/assets/images/bullet2.jpg" /> &nbsp; &nbsp; Focus on "PROACTIVE" project staffing/consulting model and POOLING STRATEGIES to better serve customers and create a competitive edge</p>
-                <p> <img src="./public/assets/images/bullet3.jpg" /> &nbsp; &nbsp; Adopt a seamless onsite-offshore model for improved "EFFICIENCY", quicker "SCALABILITY" and better "CUSTOMER EXPERIENCE" </p>
-                <p> <img src="./public/assets/images/bullet4.jpg" /> &nbsp; &nbsp; Align across VERTICALS through a CLUSTER MODEL as opposed to skills, technologies and geographies </p>
-                <p> <img src="./public/assets/images/bullet2.jpg" /> &nbsp; &nbsp; Create an entrepreneurial and passionate work environment that helps in high "CUSTOMER SATISFACTION" and "RETENTION"</p>
-                <p><img src="./public/assets/images/bullet.jpg" /> &nbsp; &nbsp; Implement METRIC-DRIVEN tools, FRAMEWORKS and PROCESS to maintain the highest quality of work and accountability.</p>
-                <p> <img src="./public/assets/images/bullet3.jpg" /> &nbsp; &nbsp; Committed to a passion of EXCELLENCE and exceeding CUSTOMER EXPECTATION.</p>
+                <p> <img src="assets/images/bullet.jpg" /> &nbsp; &nbsp; Pioneered a 24 x 7 ASSEMBLY LINE GLOBAL RECRUITING MODEL that can be quickly adopted to individual client needs</p>
+                <p> <img src="assets/images/bullet2.jpg" /> &nbsp; &nbsp; Focus on "PROACTIVE" project staffing/consulting model and POOLING STRATEGIES to better serve customers and create a competitive edge</p>
+                <p> <img src="assets/images/bullet3.jpg" /> &nbsp; &nbsp; Adopt a seamless onsite-offshore model for improved "EFFICIENCY", quicker "SCALABILITY" and better "CUSTOMER EXPERIENCE" </p>
+                <p> <img src="assets/images/bullet4.jpg" /> &nbsp; &nbsp; Align across VERTICALS through a CLUSTER MODEL as opposed to skills, technologies and geographies </p>
+                <p> <img src="assets/images/bullet2.jpg" /> &nbsp; &nbsp; Create an entrepreneurial and passionate work environment that helps in high "CUSTOMER SATISFACTION" and "RETENTION"</p>
+                <p><img src="assets/images/bullet.jpg" /> &nbsp; &nbsp; Implement METRIC-DRIVEN tools, FRAMEWORKS and PROCESS to maintain the highest quality of work and accountability.</p>
+                <p> <img src="assets/images/bullet3.jpg" /> &nbsp; &nbsp; Committed to a passion of EXCELLENCE and exceeding CUSTOMER EXPECTATION.</p>
                 {/*<a href="about-us.html" class="btn btn-primary">Read More</a>*/}
               </div>
             </div>
@@ -323,39 +323,39 @@ const Home = () => {
       <div className="container">
         <div className="text-center mb-5">
           <h5 className="head-after mb-4">Our Clients</h5> <br />
-          <img src="./public/assets/images/title.png" />
+          <img src="assets/images/title.png" />
           <h1 />
         </div>
         {/* Clients */}
         <div id="clients-carousel" className="owl-carousel d-flex">
           <div className="item">
             <div className="card">
-              <a href="#"><img src="./public/assets/images/clients/img-1.png" alt=""  /></a>
+              <a href="#"><img src="assets/images/clients/img-1.png" alt=""  /></a>
             </div>
           </div>
           <div className="item">
             <div className="card">
-              <a href="#"><img src="./public/assets/images/clients/img-2.png" alt="" /></a>
+              <a href="#"><img src="assets/images/clients/img-2.png" alt="" /></a>
             </div>
           </div>
           <div className="item">
             <div className="card">
-              <a href="#"><img src="./public/assets/images/clients/img-3.png" alt="" /></a>
+              <a href="#"><img src="assets/images/clients/img-3.png" alt="" /></a>
             </div>
           </div>
           <div className="item">
             <div className="card">
-              <a href="#"><img src="./public/assets/images/clients/img-4.png" alt="" /></a>
+              <a href="#"><img src="assets/images/clients/img-4.png" alt="" /></a>
             </div>
           </div>
           <div className="item">
             <div className="card">
-              <a href="#"><img src="./public/assets/images/clients/img-5.png" alt="" /></a>
+              <a href="#"><img src="assets/images/clients/img-5.png" alt="" /></a>
             </div>
           </div>
           <div className="item">
             <div className="card">
-              <a href="#"><img src="./public/assets/images/clients/img-6.png" alt="" /></a>
+              <a href="#"><img src="assets/images/clients/img-6.png" alt="" /></a>
             </div>
           </div>
     

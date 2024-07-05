@@ -7,7 +7,7 @@ const services = () => {
         type="text/css"
         dangerouslySetInnerHTML={{
           __html:
-            "\n\t\t\n\t.nav-pills-custom .nav-link {\n    color:#FFFFFF; /*#aaa;*/\n    background:#575784; /*#fff;*/\n    position: relative;\n}\n\n.nav-pills-custom .nav-link.active {\n    color:#000000;\n    background:#00c4ff; /*#fff;*/\n}\n\n\n/* Add indicator arrow for the active tab */\n@media (min-width: 992px) {\n    .nav-pills-custom .nav-link::before {\n        content: '';\n        display: block;\n        border-top: 8px solid transparent;\n        border-left: 10px solid #fff;\n        border-bottom: 8px solid transparent;\n        position: absolute;\n        top: 50%;\n        right: -10px;\n        transform: translateY(-50%);\n        opacity: 0;\n    }\n}\n\n.nav-pills-custom .nav-link.active::before {\n    opacity: 1;\n\t\n\t\n\t#breadcrumb{\n\tpadding: 120px 0px;\n\tposition: relative;\n\tbackground-image:url(\"./src/assets/images/services.jpg\");\n\tbackground-size: cover;\n\tbackground-attachment: fixed;\n\tz-index: 1;\n}\n\n\n}\n\n\n\n/*\n*\n* ==========================================\n* FOR DEMO PURPOSE\n* ==========================================\n*/\n/*body {\n    min-height: 100vh;\n    background: linear-gradient(to left, #dce35b, #45b649);\n}*/\n\t\n\t",
+            "\n\t\t\n\t.nav-pills-custom .nav-link {\n    color:#FFFFFF; /*#aaa;*/\n    background:#575784; /*#fff;*/\n    position: relative;\n}\n\n.nav-pills-custom .nav-link.active {\n    color:#000000;\n    background:#00c4ff; /*#fff;*/\n}\n\n\n/* Add indicator arrow for the active tab */\n@media (min-width: 992px) {\n    .nav-pills-custom .nav-link::before {\n        content: '';\n        display: block;\n        border-top: 8px solid transparent;\n        border-left: 10px solid #fff;\n        border-bottom: 8px solid transparent;\n        position: absolute;\n        top: 50%;\n        right: -10px;\n        transform: translateY(-50%);\n        opacity: 0;\n    }\n}\n\n.nav-pills-custom .nav-link.active::before {\n    opacity: 1;\n\t\n\t\n\t#breadcrumb{\n\tpadding: 120px 0px;\n\tposition: relative;\n\tbackground-image:url(\"assets/images/services.jpg\");\n\tbackground-size: cover;\n\tbackground-attachment: fixed;\n\tz-index: 1;\n}\n\n\n}\n\n\n\n/*\n*\n* ==========================================\n* FOR DEMO PURPOSE\n* ==========================================\n*/\n/*body {\n    min-height: 100vh;\n    background: linear-gradient(to left, #dce35b, #45b649);\n}*/\n\t\n\t",
         }}
       ></style>
       {/* START BREADCRUMB */}
@@ -138,7 +138,7 @@ const services = () => {
                   <h4 className="font-italic mb-4">
                     <span style={{ color: "#f7941d" }}>Cloud offerings</span>
                   </h4>
-                  <img src="./src/assets/images/line.png" /> <br />
+                  <img src="assets/images/line.png" /> <br />
                   <p>
                     A cloud service is any service made available to users on
                     demand via the Internet from a cloud computing provider's
@@ -163,8 +163,8 @@ const services = () => {
                     your business needs change.
                   </p>
                   <br /> <br />
-                  <img src="./src/assets/images/cloud.png" />
-                  <img src="./src/assets/images/cloud12.png" />
+                  <img src="assets/images/cloud.png" />
+                  <img src="assets/images/cloud12.png" />
                 </div>
                 <div
                   className="tab-pane fade shadow rounded bg-white p-5"
@@ -175,7 +175,7 @@ const services = () => {
                   <h4 className="font-italic mb-4">
                     <span style={{ color: "#f7941d" }}>Managed Services</span>
                   </h4>
-                  <img src="./src/assets/images/line.png" /> <br />
+                  <img src="assets/images/line.png" /> <br />
                   <p>
                     Managed services is the practice of outsourcing the
                     responsibility for maintaining, and anticipating need for, a
@@ -198,8 +198,8 @@ const services = () => {
                     challenge.
                   </p>{" "}
                   <br /> <br />
-                  <img src="./src/assets/images/mangedservices.png" />
-                  <img src="./src/assets/images/mangedservices1.png" />
+                  <img src="assets/images/mangedservices.png" />
+                  <img src="assets/images/mangedservices1.png" />
                   <br />
                 </div>
                 <div
@@ -211,7 +211,7 @@ const services = () => {
                   <h4 className="font-italic mb-4">
                     <span style={{ color: "#f7941d" }}>ERP Technologies</span>
                   </h4>
-                  <img src="./src/assets/images/line.png" /> <br />
+                  <img src="assets/images/line.png" /> <br />
                   <p>
                     Enterprise resource planning (ERP) refers to a type of
                     software that organizations use to manage day-to-day
@@ -234,8 +234,8 @@ const services = () => {
                     companies, ERP is as indispensable as the electricity that
                     keeps the lights on.
                   </p>
-                  <img src="./src/assets/images/erp.png" />
-                  <img src="./src/assets/images/erp1.png" />
+                  <img src="assets/images/erp.png" />
+                  <img src="assets/images/erp1.png" />
                 </div>
                 <div
                   className="tab-pane fade shadow rounded bg-white p-5"
@@ -246,7 +246,7 @@ const services = () => {
                   <h4 className="font-italic mb-4">
                     <span style={{ color: "#f7941d" }}>IT Staffing</span>
                   </h4>
-                  <img src="./src/assets/images/line.png" /> <br />
+                  <img src="assets/images/line.png" /> <br />
                   <p>
                     US Staffing is the process of hiring candidates for the US
                     companies or clients by evaluating their skills, knowledge
@@ -264,31 +264,31 @@ const services = () => {
                     accordingly.
                   </p>
                   <p>
-                    <img src="./src/assets/images/bullet12.jpg" />
+                    <img src="assets/images/bullet12.jpg" />
                     &nbsp; “The Right Stuff”: Contract Employment/Short-Term
                     Staffing. This strategy is generally used when demand
                     exceeds the number of core positions needed to accommodate
                     minimum production goals. ...
                   </p>
                   <p>
-                    <img src="./src/assets/images/bullet1.jpg" />
+                    <img src="assets/images/bullet1.jpg" />
                     &nbsp; “The Right Stuff”: Contract Employment/Short-Term
                     Staffing. This strategy is generally used when demand
                     exceeds the number of core positions needed to accommodate
                     minimum production goals. ...
                   </p>
                   <p>
-                    <img src="./src/assets/images/bullet13.jpg" />
+                    <img src="assets/images/bullet13.jpg" />
                     &nbsp; “Lets Go Shopping”: Contract-to-Hire. It's kind of
                     like buying a new car. ...
                   </p>
                   <p>
-                    <img src="./src/assets/images/bullet12.jpg" />
+                    <img src="assets/images/bullet12.jpg" />
                     &nbsp; “Busy Business”: Direct Placement Hire.
                   </p>{" "}
                   <br /> <br />
-                  <img src="./src/assets/images/itsaffing.png" />
-                  <img src="./src/assets/images/itsaffing1.png" />
+                  <img src="assets/images/itsaffing.png" />
+                  <img src="assets/images/itsaffing1.png" />
                 </div>
                 <div
                   className="tab-pane fade shadow rounded bg-white p-5"
@@ -301,7 +301,7 @@ const services = () => {
                       Project Outsourcing
                     </span>
                   </h4>
-                  <img src="./src/assets/images/line.png" /> <br />
+                  <img src="assets/images/line.png" /> <br />
                   <p>
                     Outsourcing allows a company to subcontract a particular
                     area within the organization. A company may outsource
@@ -323,8 +323,8 @@ const services = () => {
                     you mesh well together, perhaps they will feed you more
                     work.
                   </p>
-                  <img src="./src/assets/images/outsourcing.png" />
-                  <img src="./src/assets/images/outsourcing1.png" />
+                  <img src="assets/images/outsourcing.png" />
+                  <img src="assets/images/outsourcing1.png" />
                 </div>
               </div>
             </div>

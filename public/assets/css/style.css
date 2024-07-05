@@ -8,12 +8,12 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #1bb321;
+    background-color: #00c4ff;
 }
 
 ::selection {
     color: #fff;
-    background-color: #1bb321;
+    background-color: #00c4ff;
 }
 
 * {
@@ -218,8 +218,8 @@ button:hover {
 }
 
 .page-item.active .page-link {
-    background-color: #1bb321;
-    border-color: #1bb321;
+    background-color: #00c4ff;
+    border-color: #00c4ff;
 }
 
 .btn-primary,
@@ -229,10 +229,10 @@ button:hover {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #1bb321;
+    background-color: #00c4ff;
     box-shadow: 0 0 0 0;
     outline: 0;
-    border-color: #1bb321;
+    border-color: #00c4ff;
 }
 
 .btn-primary:hover,
@@ -247,7 +247,7 @@ button:hover {
 .btn-light.focus,
 .btn-light:focus {
     color: #3e3e65;
-    border-color: #1bb321;
+    border-color: #00c4ff;
     outline: 0 !important;
     box-shadow: 0 0 0 0 !important;
     background-color: transparent;
@@ -255,18 +255,18 @@ button:hover {
 
 .select-scroll .dropdown-item.active:hover,
 .select-scroll .dropdown-item:active:hover {
-    background-color: #1bb321;
+    background-color: #00c4ff;
     color: #fff;
 }
 
 .btn-border {
     color: #3e3e65;
-    border: 1px solid #1bb321;
+    border: 1px solid #00c4ff;
 }
 
 .btn-border:hover {
     color: #fff;
-    background-color: #1bb321;
+    background-color: #00c4ff;
 }
 
 .btn-white {
@@ -286,13 +286,13 @@ button:hover {
 /* Pagination */
 
 .pagination .page-link {
-    color: #1bb321;
+    color: #00c4ff;
     outline: 0;
     box-shadow: 0 0 0 0;
 }
 
 .pagination .page-item.active .pagination .page-link {
-    background-color: #1bb321;
+    background-color: #00c4ff;
 }
 
 .pagination-btn nav {
@@ -316,7 +316,7 @@ button:hover {
 }
 
 .color-primary {
-    color: #1bb321;
+    color: #00c4ff;
 }
 
 .color-success {
@@ -345,7 +345,7 @@ button:hover {
 .head-after:before {
     content: "";
     position: absolute;
-    background-color: #1bb321;
+    background-color: #00c4ff;
     width: 50%;
     height: 2px;
     left: 0px;
@@ -360,7 +360,7 @@ button:hover {
     bottom: -16px;
     margin: 0px auto;
     text-align: center;
-    border: 2px solid #1bb321;
+    border: 2px solid #00c4ff;
     border-radius: 100%;
     width: 14px;
     height: 14px;
@@ -403,7 +403,7 @@ button:hover {
     line-height: 33px;
     display: inline-block;
     text-align: center;
-    background-color: #1bb321;
+    background-color: #00c4ff;
     color: #fff;
     display: inline-block;
     text-align: center;
@@ -421,7 +421,7 @@ button:hover {
 }
 
 .social-icons a:hover i {
-    color: #1bb321;
+    color: #00c4ff;
 }
 
 /* Bg */
@@ -435,7 +435,7 @@ button:hover {
 }
 
 .primary-bg {
-    background-color: #1bb321;
+    background-color: #00c4ff;
 }
 
 .secondary-bg {
@@ -512,7 +512,7 @@ select.form-control:not([size]):not([multiple]) {
 .form-control:active {
     outline: 0;
     box-shadow: 0 0 0 0;
-    border: 1px solid #1bb321;
+    border: 1px solid #00c4ff;
 }
 
 .center-form {
@@ -536,7 +536,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .mdi-bg {
     font-size: 40px;
-    background: #1bb321;
+    background: #00c4ff;
     color: #fff;
     width: 60px;
     height: 60px;
@@ -661,7 +661,7 @@ button[aria-expanded="true"] {
 }
 
 #top-header .t-left-side i {
-    color: #1bb321;
+    color: #00c4ff;
     line-height: 0;
     position: relative;
     top: 3px;
@@ -717,7 +717,7 @@ button[aria-expanded="true"] {
 }
 
 #header .navbar-brand span {
-    color: #1bb321;
+    color: #00c4ff;
 }
 
 #header .nav-item {
@@ -733,7 +733,7 @@ button[aria-expanded="true"] {
     left: 0;
     right: 0;
     width: 100%;
-    border-top: 3px solid #1bb321;
+    border-top: 3px solid #00c4ff;
     opacity: 0;
     animation: 1s fadeIn;
     animation-fill-mode: forwards;
@@ -742,7 +742,7 @@ button[aria-expanded="true"] {
 
 #header .nav-item.active a,
 #header .nav-item a:hover {
-    color: #1bb321;
+    color: #00c4ff;
 }
 
 #header .nav-item .btn:hover {
@@ -768,7 +768,7 @@ button[aria-expanded="true"] {
 }
 
 #header .dropdown-active a {
-    color: #1bb321;
+    color: #00c4ff;
 }
 
 #header .dropdown-menu .dropdown-item {
@@ -779,7 +779,7 @@ button[aria-expanded="true"] {
 
 #header .dropdown-menu .dropdown-item:hover,
 #header .dropdown.active .dropdown-menu .dropdown-item:hover {
-    background-color: #1bb321;
+    background-color: #00c4ff;
     color: #fff;
 }
 
@@ -788,7 +788,7 @@ button[aria-expanded="true"] {
 }
 
 #header .dropdown.active .dropdown-menu .dropdown-item.active {
-    background-color: #1bb321;
+    background-color: #00c4ff;
     color: #fff;
 }
 
@@ -802,7 +802,7 @@ button[aria-expanded="true"] {
 
 #header .navbar-toggler {
     border-radius: 0;
-    background-color: #1bb321;
+    background-color: #00c4ff;
     outline: 0;
     border: 0;
     padding: 12px;
@@ -945,7 +945,7 @@ button[aria-expanded="true"] {
 }
 
 #breadcrumb li a {
-    color: #1bb321;
+    color: #00c4ff;
 }
 
 #breadcrumb li a:hover {
@@ -1026,7 +1026,7 @@ button[aria-expanded="true"] {
 
 #what-we-offer .card:hover .mdi-bg {
     background-color: #fff;
-    color: #1bb321;
+    color: #00c4ff;
 }
 
 #what-we-offer .card:hover {
@@ -1038,7 +1038,7 @@ button[aria-expanded="true"] {
 }
 
 #what-we-offer .card a:hover {
-    color: #1bb321;
+    color: #00c4ff;
 }
 
 .side-nav-bar {
@@ -1062,7 +1062,7 @@ button[aria-expanded="true"] {
 .side-nav-bar li.active a {
     font-weight: 900;
     color: #3e3e65;
-    border: 1px solid #1bb321;
+    border: 1px solid #00c4ff;
 }
 
 /* Filter */
@@ -1082,7 +1082,7 @@ button[aria-expanded="true"] {
     font-weight: 900;
     text-decoration: none;
     cursor: pointer;
-    color: #1bb321;
+    color: #00c4ff;
 }
 
 .filters-group li:before {
@@ -1366,7 +1366,7 @@ button[aria-expanded="true"] {
 }
 
 #expert-workers .owl-pagination .owl-page.active span {
-    background-color: #1bb321;
+    background-color: #00c4ff;
 }
 
 #expert-workers .owl-pagination .owl-page.active span:before {
@@ -1487,7 +1487,7 @@ button[aria-expanded="true"] {
 }
 
 #customer-says .owl-pagination .owl-page.active span {
-    background-color: #1bb321;
+    background-color: #00c4ff;
 }
 
 #customer-says .owl-pagination .owl-page.active span:before {
@@ -1565,7 +1565,7 @@ button[aria-expanded="true"] {
 }
 
 #latest-news .card h4 a:hover {
-    color: #1bb321;
+    color: #00c4ff;
 }
 
 #latest-news .news-replay-btn {
@@ -1605,7 +1605,7 @@ button[aria-expanded="true"] {
 }
 
 #latest-news .owl-pagination .owl-page.active span {
-    background-color: #1bb321;
+    background-color: #00c4ff;
 }
 
 #latest-news .owl-pagination .owl-page.active span:before {
@@ -1625,7 +1625,7 @@ button[aria-expanded="true"] {
 }
 
 #latest-news .new-post a:hover {
-    color: #1bb321;
+    color: #00c4ff;
 }
 
 #latest-news .tags li {
@@ -1712,7 +1712,7 @@ button[aria-expanded="true"] {
 }
 
 #footer a:hover {
-    color: #1bb321;
+    color: #00c4ff;
 }
 
 /**=========================
@@ -1754,7 +1754,7 @@ button[aria-expanded="true"] {
 }
 
 #sub-footer a {
-    color: #1bb321;
+    color: #00c4ff;
 }
 
 #sub-footer a:hover {
@@ -1884,7 +1884,7 @@ button[aria-expanded="true"] {
 }
 
 .cardcard button#default-color1 {
-    background-color: #1bb321;
+    background-color: #00c4ff;
 }
 
 .cardcard button#green1 {

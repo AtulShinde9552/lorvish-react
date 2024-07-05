@@ -7,7 +7,7 @@ const contact = () => {
         type="text/css"
         dangerouslySetInnerHTML={{
           __html:
-            '\n\t\t\n\t\t#breadcrumb{\n\tpadding: 120px 0px;\n\tposition: relative;\n\tbackground-image:url("./src/assets/images/contactus.jpg");\n\tbackground-size: cover;\n\tbackground-attachment: fixed;\n\tz-index: 1;\n}\n\t\n\t\n\t',
+            '\n\t\t\n\t\t#breadcrumb{\n\tpadding: 120px 0px;\n\tposition: relative;\n\tbackground-image:url("assets/images/contactus.jpg");\n\tbackground-size: cover;\n\tbackground-attachment: fixed;\n\tz-index: 1;\n}\n\t\n\t\n\t',
         }}
       />
       {/* START BREADCRUMB */}
@@ -212,7 +212,7 @@ const contact = () => {
               </div>
             </div>
             <div className="col-md-6">
-              <img src="./src/assets/images/contact.png" />
+              <img src="assets/images/contact.png" />
             </div>
           </div>
         </div>

@@ -7,7 +7,7 @@ const careers = () => {
         type="text/css"
         dangerouslySetInnerHTML={{
           __html:
-            '\n      #breadcrumb {\n        padding: 120px 0px;\n        position: relative;\n background-image:url("\"./src/assets\images\career.jpg");\n        background-size: cover;\n        background-attachment: fixed;\n        z-index: 1;\n      }\n    ',
+            '\n      #breadcrumb {\n        padding: 120px 0px;\n        position: relative;\n background-image:url("\"assets\images\career.jpg");\n        background-size: cover;\n        background-attachment: fixed;\n        z-index: 1;\n      }\n    ',
         }}
       />
       {/* START BREADCRUMB */}
@@ -132,7 +132,7 @@ const careers = () => {
               </div>
             </div>
             <div className="col-md-3">
-              <img src="./src/assets/images/c1.png" />
+              <img src="assets/images/c1.png" />
             </div>
           </div>
         </div>
@@ -188,10 +188,10 @@ const careers = () => {
                   <span style={{ color: "#0084ff" }}>Location: APEX, NC</span>
                 </strong>
               </h5>
-              <img src="./src/assets/images/line3.png" /> <br />
+              <img src="assets/images/line3.png" /> <br />
               <p>
                 <strong>Job description:</strong> <br />
-                <img src="./src/assets/images/line3.png" /> <br />
+                <img src="assets/images/line3.png" /> <br />
                 <br />
                 Ideal candidate should have analytical skills, extensive
                 experience in Java-based software development and design, and
@@ -214,25 +214,25 @@ const careers = () => {
                 </span>
               </strong>
               <br />
-              <img src="./src/assets/images/line3.png" />
+              <img src="assets/images/line3.png" />
               <br />
               <br />
               <p>
-                <img src="./src/assets/images/cb.png" /> &nbsp; Work as a member of a
+                <img src="assets/images/cb.png" /> &nbsp; Work as a member of a
                 team of analysts/developers partnered with business users.
               </p>
               <p>
-                <img src="./src/assets/images/cb.png" /> &nbsp; Design, develop,
+                <img src="assets/images/cb.png" /> &nbsp; Design, develop,
                 maintain and support analytic tools used by Active Equity
                 Portfolio Managers, Researchers and Strategists.
               </p>
               <p>
-                <img src="./src/assets/images/cb.png" /> &nbsp; Communicate with
+                <img src="assets/images/cb.png" /> &nbsp; Communicate with
                 Portfolio Managers, Researchers, Strategists and other QUIP
                 members frequently
               </p>
               <p>
-                <img src="./src/assets/images/cb.png" /> &nbsp; This position requires
+                <img src="assets/images/cb.png" /> &nbsp; This position requires
                 a person capable of assuming responsibility, and taking
                 initiatives for the key analytic tools used in our investment
                 process.
@@ -245,42 +245,42 @@ const careers = () => {
                 </span>
               </strong>
               <br />
-              <img src="./src/assets/images/line3.png" />
+              <img src="assets/images/line3.png" />
               <br />
               <br />
               <p>
-                <img src="./src/assets/images/cb.png" /> &nbsp; 5-7 Years of IT
+                <img src="assets/images/cb.png" /> &nbsp; 5-7 Years of IT
                 experience.
               </p>
               <p>
-                <img src="./src/assets/images/cb.png" /> &nbsp; 3+ Years of experience
+                <img src="assets/images/cb.png" /> &nbsp; 3+ Years of experience
                 in Java Application.
               </p>
               <p>
-                <img src="./src/assets/images/cb.png" /> &nbsp; Strong analytical,
+                <img src="assets/images/cb.png" /> &nbsp; Strong analytical,
                 quantitative, and problem-solving skills coupled with
                 thoroughness and attention to detail.
               </p>
               <p>
-                <img src="./src/assets/images/cb.png" /> &nbsp; Proven experience with
+                <img src="assets/images/cb.png" /> &nbsp; Proven experience with
                 Java production environment.
               </p>
               <p>
-                <img src="./src/assets/images/cb.png" /> &nbsp; Experience with a
+                <img src="assets/images/cb.png" /> &nbsp; Experience with a
                 statistical software package is a plus.
               </p>
               <p>
-                <img src="./src/assets/images/cb.png" /> &nbsp; Experience with Swing
+                <img src="assets/images/cb.png" /> &nbsp; Experience with Swing
                 GUI is a big plus.
               </p>
               <p>
-                <img src="./src/assets/images/cb.png" /> &nbsp; Excellent
+                <img src="assets/images/cb.png" /> &nbsp; Excellent
                 communication and interpersonal skills, including ability to
                 interact efficiently via email, phone and teleconference, with
                 business and technical users within the firm.
               </p>
               <p>
-                <img src="./src/assets/images/cb.png" /> &nbsp; Ability to work
+                <img src="assets/images/cb.png" /> &nbsp; Ability to work
                 independently and efficiently in a fast-paced and team-oriented
                 environment.
               </p>
@@ -298,10 +298,10 @@ const careers = () => {
                 </strong>
               </h5>
               <br />
-              <img src="./src/assets/images/line3.png" />
+              <img src="assets/images/line3.png" />
               <p>
                 <strong>Job description:</strong> <br />
-                <img src="./src/assets/images/line3.png" />
+                <img src="assets/images/line3.png" />
                 <br />
                 We are looking for a resource that designs and constructs web
                 pages for enterprise level ecommerce site including
@@ -320,10 +320,10 @@ const careers = () => {
                 <span style={{ color: "#0084ff" }}>Qualifications:</span>
               </strong>
               <br />
-              <img src="./src/assets/images/line3.png" />
+              <img src="assets/images/line3.png" />
               <br />
               <p>
-                <img src="./src/assets/images/cb.png" /> &nbsp; 2-5+ years of
+                <img src="assets/images/cb.png" /> &nbsp; 2-5+ years of
                 experience in front end web development or web architecture
                 utilizing user-centric design models, the ability to design
                 compelling and consistent visuals, code markup languages,
@@ -332,46 +332,46 @@ const careers = () => {
                 points of development and facilitate change requests.
               </p>
               <p>
-                <img src="./src/assets/images/cb.png" /> &nbsp; 2+ years in an
+                <img src="assets/images/cb.png" /> &nbsp; 2+ years in an
                 eCommerce/Consumer Transactional company.
               </p>
               <p>
-                <img src="./src/assets/images/cb.png" /> &nbsp; 1+ ActionScript 2.0
+                <img src="assets/images/cb.png" /> &nbsp; 1+ ActionScript 2.0
                 (Object-Oriented Programming/FLASH) is a plus.
               </p>
               <p>
-                <img src="./src/assets/images/cb.png" /> &nbsp; Expert Knowledge for
+                <img src="assets/images/cb.png" /> &nbsp; Expert Knowledge for
                 Macromedia Platforms including Dreamweaver: 2+ years
               </p>
               <p>
-                <img src="./src/assets/images/cb.png" /> &nbsp; Expert Knowledge for
+                <img src="assets/images/cb.png" /> &nbsp; Expert Knowledge for
                 Adobe Platforms including Photoshop: 2+ years
               </p>
               <p>
-                <img src="./src/assets/images/cb.png" /> &nbsp; Expert in HTML, strong
+                <img src="assets/images/cb.png" /> &nbsp; Expert in HTML, strong
                 working knowledge of Cascading Style Sheets.
               </p>
               <p>
-                <img src="./src/assets/images/cb.png" /> &nbsp; Ability to work with
+                <img src="assets/images/cb.png" /> &nbsp; Ability to work with
                 an information architect to continually enhance overall customer
                 experience.
               </p>
               <p>
-                <img src="./src/assets/images/cb.png" /> &nbsp; Motivated self-learner
+                <img src="assets/images/cb.png" /> &nbsp; Motivated self-learner
                 who likes to advance skill sets, stay abreast of changing trends
                 in technology, applications and ecommerce industry as a whole.
               </p>
               <p>
-                <img src="./src/assets/images/cb.png" /> &nbsp; Strong English written
+                <img src="assets/images/cb.png" /> &nbsp; Strong English written
                 and verbal communication skills.
               </p>
               <p>
-                <img src="./src/assets/images/cb.png" /> &nbsp; Multi-tasking
+                <img src="assets/images/cb.png" /> &nbsp; Multi-tasking
                 abilities, good troubleshooting skills, a creative thinker who
                 identifies with customer experience.
               </p>
               <p>
-                <img src="./src/assets/images/cb.png" /> &nbsp; Flexible and adaptable
+                <img src="assets/images/cb.png" /> &nbsp; Flexible and adaptable
                 to changing corporate strategies and deadlines. Relies on
                 experience and judgment to plan and accomplish goals within
                 evolving web methodologies.
@@ -384,21 +384,21 @@ const careers = () => {
                 </span>
               </strong>
               <br />
-              <img src="./src/assets/images/line3.png" />
+              <img src="assets/images/line3.png" />
               <br />
               <p>
-                <img src="./src/assets/images/cb.png" /> &nbsp; BA in Graphic Design,
+                <img src="assets/images/cb.png" /> &nbsp; BA in Graphic Design,
                 Computer Science, Communications or equivalent from a credited
                 University or Technical/Vocational school/or successful
                 experience of equal level in the field.
               </p>
               <p>
-                <img src="./src/assets/images/cb.png" /> &nbsp; Candidate must
+                <img src="assets/images/cb.png" /> &nbsp; Candidate must
                 demonstrate a strong creative portfolio with relative arc of
                 work.
               </p>
               <p>
-                <img src="./src/assets/images/cb.png" /> &nbsp; Experience with
+                <img src="assets/images/cb.png" /> &nbsp; Experience with
                 consumer-focused transactional websites, gaming, surveys and
                 Interactive banner advertising with FLASH is a PLUS.
               </p>
