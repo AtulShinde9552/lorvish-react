@@ -7,7 +7,7 @@ const careers = () => {
         type="text/css"
         dangerouslySetInnerHTML={{
           __html:
-            '\n      #breadcrumb {\n        padding: 120px 0px;\n        position: relative;\n background-image:url("\"assets\images\career.jpg");\n        background-size: cover;\n        background-attachment: fixed;\n        z-index: 1;\n      }\n    ',
+            '\n      #breadcrumb {\n        padding: 120px 0px;\n        position: relative;\n background-image:url("\"./src/assets\images\career.jpg");\n        background-size: cover;\n        background-attachment: fixed;\n        z-index: 1;\n      }\n    ',
         }}
       />
       {/* START BREADCRUMB */}

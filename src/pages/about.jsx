@@ -40,11 +40,11 @@ const about = () => {
                           </div>*/}
                     <div className="about-us-content">
                       <h1>Best <b>Lorvish Technologies </b> Overview</h1>
-                      <p><img src="./assets/images/bullet.jpg" /> &nbsp; Lorvish Technologies is a global consulting and technology services company with over a decade of experience in dedicated helping customers maximize their investment in Technology Services by delivering unmatched services and solutions.</p>
-                      <p><img src="./assets/images/bullet2.jpg" /> &nbsp; Lorvish Technologies today is a company that has set itself on the fast track, offering advanced solutions in the realms of information technology and consultation, to a host of clients belonging to industry verticals as diverse as telecommunications, finance, retail, insurance, healthcare, gaming, entertainment and aerospace
+                      <p><img src="./src/assets/images/bullet.jpg" /> &nbsp; Lorvish Technologies is a global consulting and technology services company with over a decade of experience in dedicated helping customers maximize their investment in Technology Services by delivering unmatched services and solutions.</p>
+                      <p><img src="./src/assets/images/bullet2.jpg" /> &nbsp; Lorvish Technologies today is a company that has set itself on the fast track, offering advanced solutions in the realms of information technology and consultation, to a host of clients belonging to industry verticals as diverse as telecommunications, finance, retail, insurance, healthcare, gaming, entertainment and aerospace
                         &amp; defense besides a number of federal, state and local government agencies across crucial. </p>
-                      <p><img src="./assets/images/bullet3.jpg" /> &nbsp; Lorvish Technologies’s full-service approach and unparalleled experience in all areas of Cloud Services, ERP Applications, IT Staffing and Managed Services has helped the Company build one of the strongest reference bases of Technology customers. </p>
-                      <p><img src="./assets/images/bullet.jpg" />&nbsp;  With its proven ability to execute, Lorvish Technologies consistently helps clients ranging from small to midsize enterprises and Fortune 1000 companies achieve their goals today and advance beyond them. </p>
+                      <p><img src="./src/assets/images/bullet3.jpg" /> &nbsp; Lorvish Technologies’s full-service approach and unparalleled experience in all areas of Cloud Services, ERP Applications, IT Staffing and Managed Services has helped the Company build one of the strongest reference bases of Technology customers. </p>
+                      <p><img src="./src/assets/images/bullet.jpg" />&nbsp;  With its proven ability to execute, Lorvish Technologies consistently helps clients ranging from small to midsize enterprises and Fortune 1000 companies achieve their goals today and advance beyond them. </p>
                     </div>
                   </div>
                 </div>
@@ -52,7 +52,7 @@ const about = () => {
                 <div className="col-lg-4">
                   <div className="video-btn">
                     <div className="img-bg">
-                      <img className="w-100" src="assets/images/img-1.jpg" alt="" />
+                      <img className="w-100" src="./src/assets/images/img-1.jpg" alt="" />
                       
                     </div>
                     <button type="button" id="clickplay" className="btn btn-lg btn-primary" data-toggle="modal" data-target="#video">
@@ -91,8 +91,8 @@ const about = () => {
                       <div className="col-sm-9">
                         <div className="pt-4 pb-4">
                           <h5><a href="#">History</a></h5>
-                          <p><img src="src/assets/images/bullet1.jpg" /> &nbsp;  Headquartered in Apex, NC.</p>
-                          <p><img src="src/assets/images/bullet12.jpg" /> &nbsp;  Founded by a team of experienced professionals with a solid base in Technology and Management.</p>
+                          <p><img src="./src/assets/images/bullet1.jpg" /> &nbsp;  Headquartered in Apex, NC.</p>
+                          <p><img src="./src/assets/images/bullet12.jpg" /> &nbsp;  Founded by a team of experienced professionals with a solid base in Technology and Management.</p>
                           <br /> <br /> <br /> <br /> 
                         </div>
                       </div>
@@ -109,9 +109,9 @@ const about = () => {
                       <div className="col-sm-9">
                         <div className="pt-4 pb-4">
                           <h5><a href="#">Experience</a></h5>
-                          <p><img src="src/assets/images/bullet12.jpg" /> &nbsp;  Full-Time Employees, not Contractors.</p>
-                          <p><img src="src/assets/images/bullet1.jpg" /> &nbsp; Cloud Services, ERP Solutions, IT Staffing, Managed Services, Outsourcing. </p>
-                          <p><img src="src/assets/images/bullet13.jpg" /> &nbsp;  Customers Across all Verticals.</p>
+                          <p><img src="./src/assets/images/bullet12.jpg" /> &nbsp;  Full-Time Employees, not Contractors.</p>
+                          <p><img src="./src/assets/images/bullet1.jpg" /> &nbsp; Cloud Services, ERP Solutions, IT Staffing, Managed Services, Outsourcing. </p>
+                          <p><img src="./src/assets/images/bullet13.jpg" /> &nbsp;  Customers Across all Verticals.</p>
                           <br /> <br /> 									
                         </div>
                       </div>
@@ -123,14 +123,14 @@ const about = () => {
                     <div className="row d-flex align-items-center">
                       <div className="col-sm-3">
                         {/*<i class="mdi mdi-trophy-variant mdi-bg"></i>*/}
-                        <img src="src/assets/images/services.png" />
+                        <img src="./src/assets/images/services.png" />
                       </div>
                       <div className="col-sm-9">
                         <div className="pt-4 pb-4">
                           <h5><a href="#">Services</a></h5>
-                          <p><img src="src/assets/images/bullet13.jpg" /> &nbsp;  Consulting - Implementations, Migrations, Design, Advisement.</p>
-                          <p><img src="src/assets/images/bullet1.jpg" /> &nbsp;  Support - Functional &amp; Technical, Managed &amp; On-Demand.</p>
-                          <p><img src="src/assets/images/bullet12.jpg" /> &nbsp;  Hybrid (SaaS, PaaS, IaaS) IT services.</p>							
+                          <p><img src="./src/assets/images/bullet13.jpg" /> &nbsp;  Consulting - Implementations, Migrations, Design, Advisement.</p>
+                          <p><img src="./src/assets/images/bullet1.jpg" /> &nbsp;  Support - Functional &amp; Technical, Managed &amp; On-Demand.</p>
+                          <p><img src="./src/assets/images/bullet12.jpg" /> &nbsp;  Hybrid (SaaS, PaaS, IaaS) IT services.</p>							
                           <br /> 
                         </div>
                       </div>
