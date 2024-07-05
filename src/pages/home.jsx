@@ -13,7 +13,7 @@ const Home = () => {
     </ol>
     <div className="carousel-inner" role="listbox">
       {/* Slider 1 */}
-      <div className="carousel-item active" style={{backgroundImage: 'url("./src/assets/images/slider/img-1.jpg")'}}>
+      <div className="carousel-item active" style={{backgroundImage: 'url("./public/assets/images/slider/img-1.jpg")'}}>
         <div className="carousel-caption">
           <div className="container">
             <h3>Project Management <span className="color-primary">Services</span></h3>
@@ -21,7 +21,7 @@ const Home = () => {
         </div>
       </div>
       {/* Slider 2 */}
-      <div className="carousel-item" style={{backgroundImage: 'url("./src/assets/images/slider/img-2.jpg")'}}>
+      <div className="carousel-item" style={{backgroundImage: 'url("./public/assets/images/slider/img-2.jpg")'}}>
         <div className="carousel-caption">
           <div className="container">
             <h3>Implementation, Upgrade, Support Services <span className="color-primary">&amp; 24X7 Infra Support Services </span></h3>
@@ -29,7 +29,7 @@ const Home = () => {
         </div>
       </div>
       {/* Slider 3 */}
-      <div className="carousel-item" style={{backgroundImage: 'url("./src/assets/images/slider/img-3.jpg")'}}>
+      <div className="carousel-item" style={{backgroundImage: 'url("./public/assets/images/slider/img-3.jpg")'}}>
         <div className="carousel-caption">
           <div className="container">
             <h3>Testing Services - Test Planning/Execution, <span className="color-primary">Automation, Perf Testing </span></h3>
@@ -323,39 +323,39 @@ const Home = () => {
       <div className="container">
         <div className="text-center mb-5">
           <h5 className="head-after mb-4">Our Clients</h5> <br />
-          <img src="./src/assets/images/title.png" />
+          <img src="./public/assets/images/title.png" />
           <h1 />
         </div>
         {/* Clients */}
         <div id="clients-carousel" className="owl-carousel d-flex">
           <div className="item">
             <div className="card">
-              <a href="#"><img src="./src/assets/images/clients/img-1.png" alt=""  /></a>
+              <a href="#"><img src="./public/assets/images/clients/img-1.png" alt=""  /></a>
             </div>
           </div>
           <div className="item">
             <div className="card">
-              <a href="#"><img src="./src/assets/images/clients/img-2.png" alt="" /></a>
+              <a href="#"><img src="./public/assets/images/clients/img-2.png" alt="" /></a>
             </div>
           </div>
           <div className="item">
             <div className="card">
-              <a href="#"><img src="./src/assets/images/clients/img-3.png" alt="" /></a>
+              <a href="#"><img src="./public/assets/images/clients/img-3.png" alt="" /></a>
             </div>
           </div>
           <div className="item">
             <div className="card">
-              <a href="#"><img src="./src/assets/images/clients/img-4.png" alt="" /></a>
+              <a href="#"><img src="./public/assets/images/clients/img-4.png" alt="" /></a>
             </div>
           </div>
           <div className="item">
             <div className="card">
-              <a href="#"><img src="./src/assets/images/clients/img-5.png" alt="" /></a>
+              <a href="#"><img src="./public/assets/images/clients/img-5.png" alt="" /></a>
             </div>
           </div>
           <div className="item">
             <div className="card">
-              <a href="#"><img src="./src/assets/images/clients/img-6.png" alt="" /></a>
+              <a href="#"><img src="./public/assets/images/clients/img-6.png" alt="" /></a>
             </div>
           </div>
     
