@@ -55,3 +55,29 @@
     background-color: rgba(62, 62, 101, 0.8);
     z-index: -1;
 }
+
+
+
+
+#call-back {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  
+  #call-back .form-control {
+    border-radius: 30px;
+  }
+  
+  #call-back .form-group {
+    margin-bottom: 20px;
+  }
+  
+  #call-back .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  #call-back .btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }

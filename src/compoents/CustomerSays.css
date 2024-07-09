@@ -1,0 +1,63 @@
+#customer-says {
+    background: #f9f9f9;
+    padding: 50px 0;
+  }
+  
+  #customer-says .head-after {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border-radius: 25px;
+  }
+  
+  #customer-says h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  #customer-says .c-says-img img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
+  
+  #customer-says .card {
+    background: #fff;
+    border: none;
+    padding: 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  #customer-says .c-says-warp h3 {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+  }
+  
+  #customer-says .c-says-content {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  #customer-says .mdi-format-quote-open {
+    color: #ff9900;
+  }
+  
+  #customer-says .slick-dots li button:before {
+    color: #ff9900;
+  }
+  
+  #customer-says .slick-prev,
+  #customer-says .slick-next {
+    background: #ff9900;
+    border-radius: 50%;
+  }
+  
+  #customer-says .slick-prev:hover,
+  #customer-says .slick-next:hover {
+    background: #333;
+  }
+  

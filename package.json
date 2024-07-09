@@ -14,6 +14,7 @@
     "@mdi/react": "^1.6.1",
     "bootstrap": "^5.3.3",
     "font-awesome": "^4.7.0",
+    "framer-motion": "^11.2.13",
     "jquery": "^3.7.1",
     "owl.carousel": "^2.3.4",
     "react": "^18.3.1",
