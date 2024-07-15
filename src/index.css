@@ -1,3 +1,7 @@
+body{
+  font-family: 'Nunito', sans-serif;
+}
+
 .nav-pills-custom .nav-link {
     color:#FFFFFF; /*#aaa;*/
     background:#575784; /*#fff;*/
@@ -52,10 +56,47 @@
     bottom: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(62, 62, 101, 0.8);
+    background-image: url(assets/images/calculator-bg.jpg);
     z-index: -1;
 }
 
+/*** Service ***/
+.service-item {
+  position: relative;
+  height: 300px;
+  padding: 0 30px;
+  transition: .5s;
+}
+
+.service-item .service-icon {
+  margin-bottom: 30px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary);
+  border-radius: 2px;
+  transform: rotate(-45deg);
+}
+
+.service-item .service-icon i {
+  transform: rotate(45deg);
+}
+
+.service-item a.btn {
+  position: absolute;
+  width: 60px;
+  bottom: -48px;
+  left: 50%;
+  margin-left: -30px;
+  opacity: 0;
+}
+
+.service-item:hover a.btn {
+  bottom: -24px;
+  opacity: 1;
+}
 
 
 
@@ -81,3 +122,461 @@
     background-color: #0069d9;
     border-color: #0062cc;
   }
+
+  .flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    perspective: 1000px; /* Remove this line if you don't want 3D effect */
+  }
+
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+
+  .flip-card-front {
+    background-color: #fff;
+    color: #000;
+  }
+
+  .flip-card-back {
+    background-color: #000;
+    color: #fff;
+    transform: rotateY(180deg);
+  }
+
+
+
+  /*
+---------------------------------------------
+calculator
+---------------------------------------------
+*/
+
+section.calculator {
+  margin-top: 150px;
+  background-image: url(assets/images/calculator-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  padding: 80px 0px;
+}
+
+section.calculator .left-image {
+  margin: -110px 45px -80px 0px;
+}
+
+section.calculator .section-heading {
+  text-align: left;
+}
+
+section.calculator .section-heading h4 {
+  color: #fff;
+}
+
+#calculate label {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+#calculate input,
+#calculate select {
+  background-color: rgba(121,134,151, 0.7);
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  height: 42px;
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 30px;
+  outline: none;
+}
+
+#calculate select {
+  cursor: pointer;
+}
+
+#calculate button.orange-button {
+  font-size: 14px;
+  color: #fff;
+  background-color: #007bff;
+  padding: 12px 30px;
+  display: inline-block;
+  border-radius: 5px;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  border: none;
+  transition: all .3s;
+}
+
+#calculate button.orange-button:hover {
+  opacity: 0.9;
+}
+
+
+
+
+/* 
+---------------------------------------------
+contact us page
+--------------------------------------------- 
+*/
+
+section.map .info-item {
+  text-align: center;
+  padding: 40px 30px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  margin-top: -60px;
+  margin-left: 15px;
+  margin-right: 15px;
+  position: relative;
+  z-index: 2;
+  transition: all .5s;
+}
+
+section.map .info-item:hover {
+  margin-top: -70px;
+}
+
+section.map .info-item i {
+  font-size: 36px;
+  color: #43ba7f;
+  margin-bottom: 25px;
+}
+
+section.map .info-item h4 {
+  font-size: 18px;
+  color: #212741;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+section.map .info-item a {
+  font-size: 15px;
+  font-weight: 600;
+  color: #43ba7f;
+  transition: all 0.3s;
+}
+
+section.map .info-item a:hover {
+  color: #007bff;
+}
+
+#contact input {
+  width: 100%;
+  height: 50px;
+  background-color: #f7f7f7;
+  color: #212741;
+  border-radius: 5px;
+  border: none;
+  padding: 0px 15px;
+  font-size: 14px;
+  outline: none;
+  margin-bottom: 30px;
+}
+
+#contact textarea {
+  width: 100%;
+  height: 180px;
+  max-height: 24px;
+  min-height: 150px;
+  background-color: #f7f7f7;
+  color: #212741;
+  border-radius: 5px;
+  border: none;
+  padding: 15px 15px;
+  font-size: 14px;
+  outline: none;
+  margin-bottom: 30px;
+}
+
+#contact input::placeholder, 
+#contact textarea::placeholder {
+  color: #212741;
+}
+#contact button.orange-button {
+  font-size: 14px;
+  color: #fff;
+  background-color: #007bff;
+  padding: 12px 30px;
+  display: inline-block;
+  border-radius: 5px;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  border: none;
+  transition: all .3s;
+}
+
+#contact button.orange-button:hover {
+  background-color: #43ba7f;
+}
+
+
+.section-heading {
+  position: relative;
+  z-index: 2;
+  margin-top: 0px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.section-heading h6 {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #007bff;
+  font-weight: 700;
+}
+
+.section-heading h4 {
+  margin-top: 10px;
+  line-height: 40px;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #212741;
+}
+
+.section-heading p {
+  margin-top: 30px;
+}
+
+
+
+
+
+
+
+/* 
+---------------------------------------------
+services page
+--------------------------------------------- 
+*/
+
+.main-services .service-item {
+  margin-bottom: 60px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #ecf8f2;
+}
+
+.main-services .last-service {
+  border-bottom: none;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.main-services  .left-image {
+  margin-right: 15px;
+}
+
+.main-services  .left-image img {
+  border-radius: 5px;
+}
+
+.main-services  .right-image {
+  margin-left: 15px;
+}
+
+.main-services  .right-image img {
+  border-radius: 5px;
+}
+
+.main-services .right-text-content {
+  margin-left: 15px;
+}
+
+.main-services .left-text-content {
+  margin-right: 15px;
+}
+
+.main-services .right-text-content i,
+.main-services .left-text-content i {
+  font-size: 64px;
+  color: #43ba7f;
+  background-color: #ecf8f2;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  display: inline-block;
+  line-height: 120px;
+  border-radius: 5px;
+}
+
+.main-services .right-text-content h4,
+.main-services .left-text-content h4 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #212741;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+section.service-details .naccs {
+  position: relative;
+}
+
+section.service-details .naccs .menu {
+  text-align: center;
+}
+
+section.service-details .naccs .menu div {
+  padding: 15px 30px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px !important;
+  margin-right: 30px;
+  font-size: 18px;
+  color: #212741;
+  background-color: #fff;
+  cursor: pointer;
+  vertical-align: middle;
+  font-weight: 600;
+  transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+section.service-details .naccs .menu div.active {
+  color: #007bff;
+}
+
+section.service-details ul.nacc {
+  margin-top: 50px !important;
+  position: relative;
+  min-height: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+section.service-details ul.nacc li {
+  background-color: #fff;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateX(50px);
+  position: absolute;
+  list-style: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+section.service-details ul.nacc li .left-image {
+  position: absolute;
+  margin-right: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+section.service-details ul.nacc li .left-image img {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+section.service-details ul.nacc li .right-content {
+  padding: 50px 50px 50px 0px;
+  margin-left: 470px;
+}
+
+section.service-details ul.nacc li .right-content h4 {
+  font-size: 24px;
+  color: #212741;
+  margin-bottom: 25px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-right: 120px;
+}
+
+section.service-details ul.nacc li .right-content ul {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+section.service-details ul.nacc li .right-content span {
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  color: #212741;
+  font-style: italic;
+  margin-bottom: 12px;
+}
+
+section.service-details ul.nacc li .right-content .last-span {
+  margin-bottom: 0px;
+}
+
+section.service-details ul.nacc li .right-content p {
+  margin-bottom: 30px;
+}
+
+section.service-details ul.nacc li.active {
+  position: relative;
+  transition-delay: 0.3s;
+  z-index: 2;
+  opacity: 1;
+  transform: translateX(0px);
+}
+
+
+
+/* CustomerSays.css */
+
+/* Example: Adjust card styling */
+.card {
+  background-color: #f8f9fa; /* Change background color */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Increase padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+/* Example: Styling for quotes */
+.c-says-content {
+  position: relative;
+  padding: 20px;
+  text-align: left;
+}
+
+.c-says-content .mdi-left,
+.c-says-content .mdi-right {
+  font-size: 30px;
+  position: absolute;
+  color: #007bff; /* Change color */
+}
+
+.c-says-content .mdi-left {
+  left: 10px;
+  top: 10px;
+}
+
+.c-says-content .mdi-right {
+  right: 10px;
+  bottom: 10px;
+}
+
+/* Example: Image styling */
+.c-says-img img {
+  width: 100px; /* Adjust image size */
+  border-radius: 50%; /* Make images round */
+  border: 2px solid #fff; /* Add a border */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+}

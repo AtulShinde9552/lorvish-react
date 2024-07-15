@@ -63,84 +63,134 @@ const contact = () => {
           </nav>
         </div>
       </div>
-      <section className="py-5">
+      <section className="map mt-5">
         <div className="container">
-          <div className="row mb-5">
-            <div className="col-md-4">
-              <div className="card">
-                <h4 className="head-after">US HEADQUARTERS</h4>
-                <p>4819 Emperor Boulevard, Suite 400, <br /> Durham, NC 27703.</p>
-                <p>Tel: +1 919-999-0626</p>
-                <p>info@lorvish.com</p>
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.718327256979!2d-78.86444438473976!3d35.73314528018219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ac93b513e8a0b1%3A0xd553f364b7d4db8d!2sLorvish%20Technologies!5e0!3m2!1sen!2sin!4v1594189874539!5m2!1sen!2sin"
-                  width="100%"
-                  height="350"
-                  frameBorder="0"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  aria-hidden="false"
-                  tabIndex="0"
-                />
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="card">
-                <h4 className="head-after">Regional Office</h4>
-                <p>499 Ernston Rd Parlin, NJ 08859.</p>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="card">
-                <h4 className="head-after">INDIA Headquarters</h4>
-                <p>#502, Techno Residency, Near paradise Hotel, Raheja Mindspace Building, Madhapur, Hyderabad- 500081.</p>
+          <div className="row">
+            <div className="col-lg-12">
+              <div id="map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.362533792457!2d78.37960171487715!3d17.442353888045655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb931331ed0ad9%3A0x7f9ee352195107f5!2sLorvish%20Technologies!5e0!3m2!1sen!2sin!4v1594190960054!5m2!1sen!2sin"
                   width="100%"
-                  height="350"
+                  height="450px"
                   frameBorder="0"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  aria-hidden="false"
-                  tabIndex="0"
-                />
+                  style={{ border: 0, borderRadius: "5px", position: "relative", zIndex: 2 }}
+                  allowFullScreen=""
+                ></iframe>
               </div>
             </div>
-          </div>
-                <h4 className="head-after">Get A Quote</h4>
-          <div className="row">
-            <div className="col-md-6">
-              <div className="card">
-                <form action="contact_form" method="post" encType="multipart/form-data">
-                  <div className="row">
-                    <div className="col-lg-6 mb-3">
-                      <input type="text" name="name" className="form-control" placeholder="Name" required />
-                    </div>
-                    <div className="col-lg-6 mb-3">
-                      <input type="text" name="phone" className="form-control" maxLength={10} placeholder="Mobile" required />
-                    </div>
-                    <div className="col-lg-6 mb-3">
-                      <input type="email" name="email" className="form-control" placeholder="Email" required />
-                    </div>
-                    <div className="col-lg-6 mb-3">
-                      <input type="text" name="subject" className="form-control" placeholder="Subject" />
-                    </div>
-                    <div className="col-lg-12 mb-3">
-                      <textarea rows={4} name="comment" placeholder="Messages" className="form-control" />
-                    </div>
-                    <div className="col-lg-12">
-                      <button type="submit" name="sub" className="btn btn-primary w-100">Submit</button>
-                    </div>
+            <div className="col-lg-10 offset-lg-1">
+              <div className="row">
+                <div className="col-lg-4">
+                  <div className="info-item">
+                    <i className="fa fa-envelope"></i>
+                    <h4>Email Address</h4>
+                    <a href="">info@lorvish.com</a>
                   </div>
-                </form>
+                </div>
+                <div className="col-lg-4">
+                  <div className="info-item">
+                    <i className="fa fa-phone"></i>
+                    <h4>Phone Number</h4>
+                    <a href="">+1 919-999-0626</a>
+                  </div>
+                </div>
+                <div className="col-lg-4">
+                  <div className="info-item">
+                    <i className="fa fa-map-marked-alt"></i>
+                    <h4>Address</h4>
+                    <a href="#">4819 Emperor Boulevard, Suite 400,
+                    Durham, NC 27703.</a>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div className="col-md-4">
-              <img src="assets/images/contact3.png" className="img-fluid" alt="Contact"  />
             </div>
           </div>
         </div>
       </section>
+
+
+      <section className="contact-us-form py-5">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 offset-lg-3">
+              <div className="section-heading">
+                <h6>Contact Us</h6>
+                <h4>Feel free to message us</h4>
+              </div>
+            </div>
+            <div className="col-lg-10 offset-lg-1">
+              <form id="contact" action="" method="post">
+                <div className="row">
+                  <div className="col-lg-6">
+                    <fieldset>
+                      <input
+                        type="text"
+                        name="name"
+                        id="name"
+                        placeholder="Your Name..."
+                        autoComplete="on"
+                        required
+                      />
+                    </fieldset>
+                  </div>
+                  <div className="col-lg-6">
+                    <fieldset>
+                      <input
+                        type="tel"
+                        name="phone"
+                        id="phone"
+                        placeholder="Your Phone..."
+                        autoComplete="on"
+                        required
+                      />
+                    </fieldset>
+                  </div>
+                  <div className="col-lg-6">
+                    <fieldset>
+                      <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        pattern="[^ @]*@[^ @]*"
+                        placeholder="Your E-mail..."
+                        required
+                      />
+                    </fieldset>
+                  </div>
+                  <div className="col-lg-6">
+                    <fieldset>
+                      <input
+                        type="text"
+                        name="subject"
+                        id="subject"
+                        placeholder="Subject..."
+                        autoComplete="on"
+                      />
+                    </fieldset>
+                  </div>
+                  <div className="col-lg-12">
+                    <fieldset>
+                      <textarea
+                        name="message"
+                        id="message"
+                        placeholder="Your Message"
+                      ></textarea>
+                    </fieldset>
+                  </div>
+                  <div className="col-lg-12">
+                    <fieldset>
+                      <button type="submit" id="form-submit" className="orange-button">
+                        Send Message
+                      </button>
+                    </fieldset>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <div id="sub-footer" className="py-3">
         <div className="container">
           <div className="row">

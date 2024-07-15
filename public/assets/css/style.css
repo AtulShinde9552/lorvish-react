@@ -1012,6 +1012,7 @@ button[aria-expanded="true"] {
 #what-we-offer {
     padding: 60px 0px 40px;
     background-color: rgba(62, 62, 101, 0.15);
+    
 }
 
 #what-we-offer .card p {

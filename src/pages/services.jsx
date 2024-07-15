@@ -133,94 +133,39 @@ const services = () => {
       {/* END BREADCRUMB */}
       <br /> <br />
       {/* START WHO WE ARE */}
-      <section className="py-5 header">
-        <div className="container py-4">
-          <header className="text-center mb-5 pb-5">
-            {/* Optional Header Content */}
-          </header>
-          <div className="row">
-            <div className="col-md-3">
-              {/* Tabs nav */}
-              <div
-                className="nav flex-column nav-pills nav-pills-custom"
-                id="v-pills-tab"
-                role="tablist"
-                aria-orientation="vertical"
-              >
-                <a
-                  className="nav-link mb-3 p-3 shadow active"
-                  id="v-pills-1-tab"
-                  data-toggle="pill"
-                  href="#v-pills-home"
-                  role="tab"
-                  aria-controls="v-pills-home"
-                  aria-selected="true"
-                >
-                  <i className="fa fa-cloud mr-2" />
-                  <span>Cloud Offerings</span>
-                </a>
-                <a
-                  className="nav-link mb-3 p-3 shadow"
-                  id="v-pills-messages-tab"
-                  data-toggle="pill"
-                  href="#v-pills-messages"
-                  role="tab"
-                  aria-controls="v-pills-messages"
-                  aria-selected="false"
-                >
-                  <i className="fa fa-cogs mr-2" />
-                  <span>Managed Services</span>
-                </a>
-                <a
-                  className="nav-link mb-3 p-3 shadow"
-                  id="v-pills-settings-tab"
-                  data-toggle="pill"
-                  href="#v-pills-settings"
-                  role="tab"
-                  aria-controls="v-pills-settings"
-                  aria-selected="false"
-                >
-                  <i className="fa fa-briefcase mr-2" />
-                  <span>ERP Technologies</span>
-                </a>
-                <a
-                  className="nav-link mb-3 p-3 shadow"
-                  id="v-pills-it-tab"
-                  data-toggle="pill"
-                  href="#v-pills-it"
-                  role="tab"
-                  aria-controls="v-pills-it"
-                  aria-selected="false"
-                >
-                  <i className="fa fa-users mr-2" />
-                  <span>IT Staffing</span>
-                </a>
-                <a
-                  className="nav-link mb-3 p-3 shadow"
-                  id="v-pills-project-tab"
-                  data-toggle="pill"
-                  href="#v-pills-project"
-                  role="tab"
-                  aria-controls="v-pills-project"
-                  aria-selected="false"
-                >
-                  <i className="fa fa-tasks mr-2" />
-                  <span>Project Outsourcing</span>
-                </a>
-              </div>
-            </div>
-            <div className="col-md-9">
-              {/* Tabs content */}
-              <div className="tab-content" id="v-pills-tabContent">
-                <div
-                  className="tab-pane fade shadow rounded bg-white show active p-5"
-                  id="v-pills-home"
-                  role="tabpanel"
-                  aria-labelledby="v-pills-home-tab"
-                >
-                  <h4>Cloud Offerings</h4>
-                  <img src="assets/images/line.png" alt="line" /> <br />
-                  <p>
+      <section class="service-details">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading">
+            <h6>Investment in Details</h6>
+            <h4>Upgrade your knowledge</h4>
+          </div>
+        </div>
+        <div class="col-lg-10 offset-lg-1">
+          <div class="naccs">
+            <div class="tabs">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="menu">
+                    <div class="active gradient-border"><span>CLOUD OFFERINGS</span></div>
+                    <div class="gradient-border"><span>MANAGED SERVICES</span></div>
+                    <div class="gradient-border"><span>ERP TECHNOLOGIES</span></div>
+                    <div class="gradient-border mt-3"><span>IT STAFFING</span></div>
+                    <div class="gradient-border mt-3"><span>PROJECT OUTSOURCING</span></div>
+
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <ul class="nacc">
+                    <li class="active">
+                      <div>
+                        <div class="left-image">
+                          <img src="assets/images/cloud.png" alt=""/>
+                        </div>
+                        <div class="right-content">
+                          <h4>CLOUD OFFERINGS</h4>
+                          <p>
                     A cloud service is any service made available to users on
                     demand via the Internet from a cloud computing provider's
                     servers as opposed to being provided from a company's own
@@ -243,18 +188,16 @@ const services = () => {
                     costs, run your infrastructure more efficiently and scale as
                     your business needs change.
                   </p>
-                  <br /> <br />
-                  <img src="assets/images/cloud.png" alt="cloud" />
-                  <img src="assets/images/cloud12.png" alt="cloud" />
-                </div>
-                <div
-                  className="tab-pane fade shadow rounded bg-white p-5"
-                  id="v-pills-messages"
-                  role="tabpanel"
-                  aria-labelledby="v-pills-messages-tab"
-                >
-                  <h4>Managed Services</h4>
-                  <img src="assets/images/line.png" alt="line" /> <br />
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="left-image">
+                        <img src="assets/images/mangedservices.png" />
+                        </div>
+                        <div class="right-content">
+                        <h4>Managed Services</h4>
                   <p>
                     Managed services is the practice of outsourcing the
                     responsibility for maintaining, and anticipating need for, a
@@ -270,18 +213,16 @@ const services = () => {
                     other endpoints, as well as providing security services and
                     disaster recovery.
                   </p>
-                  <br /> <br />
-                  <img src="assets/images/mangedservices.png" />
-                  <img src="assets/images/mangedservices1.png" />
-                </div>
-                <div
-                  className="tab-pane fade shadow rounded bg-white p-5"
-                  id="v-pills-settings"
-                  role="tabpanel"
-                  aria-labelledby="v-pills-settings-tab"
-                >
-                  <h4>ERP Technologies</h4>
-                  <img src="assets/images/line.png" alt="line" /> <br />
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="left-image">
+                        <img src="assets/images/erp.png" />
+                        </div>
+                        <div class="right-content">
+                        <h4>ERP Technologies</h4>
                   <p>
                     ERP (Enterprise Resource Planning) refers to a type of
                     software that organizations use to manage day-to-day
@@ -299,18 +240,17 @@ const services = () => {
                     sources, ERP systems eliminate data duplication and provide
                     data integrity with a single source of truth.
                   </p>
-                  <br /> <br />
-                  <img src="assets/images/erp.png" />
-                  <img src="assets/images/erp1.png" />
-                </div>
-                <div
-                  className="tab-pane fade shadow rounded bg-white p-5"
-                  id="v-pills-it"
-                  role="tabpanel"
-                  aria-labelledby="v-pills-it-tab"
-                >
-                  <h4>IT Staffing</h4>
-                  <img src="assets/images/line.png" alt="line" /> <br />
+                        </div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div>
+                        <div class="left-image">
+                        <img src="assets/images/itsaffing.png" />
+                        </div>
+                        <div class="right-content">
+                        <h4>IT Staffing</h4>
                   <p>
                     IT staffing services provide businesses with skilled IT
                     professionals on a short-term or long-term basis to fill
@@ -323,18 +263,17 @@ const services = () => {
                     business stay competitive in today’s fast-paced technological
                     landscape.
                   </p>
-                  <br /> <br />
-                  <img src="assets/images/itsaffing.png" />
-                  <img src="assets/images/itsaffing1.png" />
-                </div>
-                <div
-                  className="tab-pane fade shadow rounded bg-white p-5"
-                  id="v-pills-project"
-                  role="tabpanel"
-                  aria-labelledby="v-pills-project-tab"
-                >
-                  <h4>Project Outsourcing</h4>
-                  <img src="assets/images/line.png" alt="line" /> <br />
+                        </div>
+                      </div>
+                    </li>
+                    
+                    <li>
+                      <div>
+                        <div class="left-image">
+                        <img src="assets/images/outsourcing.png" />
+                        </div>
+                        <div class="right-content">
+                        <h4>Project Outsourcing</h4>
                   <p>
                     Project outsourcing involves hiring an external service
                     provider to carry out a project on behalf of an
@@ -346,15 +285,19 @@ const services = () => {
                     competencies while leveraging the expertise of external
                     providers to complete specific projects successfully.
                   </p>
-                  <br /> <br />
-                  <img src="assets/images/outsourcing.png" />
-                  <img src="assets/images/outsourcing1.png" />
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </section>
+
       <br /> <br />
       {/* START SUB FOOTER */}
       <div id="sub-footer">
