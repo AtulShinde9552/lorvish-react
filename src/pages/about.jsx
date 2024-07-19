@@ -1,4 +1,25 @@
 import React from 'react'
+import AboutImg from '../assets/img/about.jpg'
+import About1 from '../assets/img/about1.jpg'
+import About2 from '../assets/img/about-2.jpg'
+import About3 from '../assets/img/about-3.jpg'
+import About4 from '../assets/img/about-4.jpg'
+import AboutBackroungImg from '../assets/img/about-background.jpg'
+
+import Team1 from '../assets/img/team/team-1.jpg'
+import Team2 from '../assets/img/team/team-2.jpg'
+import Team3 from '../assets/img/team/team-3.jpg'
+import Team4 from '../assets/img/team/team-4.jpg'
+import Team5 from '../assets/img/team/team-5.jpg'
+import Team6 from '../assets/img/team/team-6.jpg'
+
+import Testimonials1 from "../assets/img/testimonials/testimonials-1.jpg"
+import Testimonials2 from "../assets/img/testimonials/testimonials-2.jpg"
+import Testimonials3 from "../assets/img/testimonials/testimonials-3.jpg"
+import Testimonials4 from "../assets/img/testimonials/testimonials-4.jpg"
+import Testimonials5 from "../assets/img/testimonials/testimonials-5.jpg"
+
+
 import { FaTwitter, FaFacebook, FaInstagram, FaLinkedin, FaArrowUp } from 'react-icons/fa';
 
 const about = () => {
@@ -9,7 +30,7 @@ const about = () => {
     {/* ======= Breadcrumbs ======= */}
     <div
       className="breadcrumbs d-flex align-items-center"
-      style={{ backgroundImage: 'url("../src/assets/img/about-background.jpg")' }}
+      style={{ backgroundImage: `url(${AboutBackroungImg})` }}
     >
       <div
         className="container position-relative d-flex flex-column align-items-center"
@@ -31,7 +52,7 @@ const about = () => {
         <div className="row position-relative">
           <div
             className="col-lg-7 about-img"
-            style={{ backgroundImage: "url(../src/assets/img/about1.jpg)" }}
+            style={{ backgroundImage: `url(${About1})` }}
           />
           <div className="col-lg-7">
             <h2>20
@@ -148,7 +169,7 @@ const about = () => {
         <div className="row justify-content-around gy-4">
           <div
             className="col-lg-6 img-bg"
-            style={{ backgroundImage: "url(./src/assets/img/about-2.jpg)" }}
+            style={{ backgroundImage: `url(${About2})` }}
             data-aos="zoom-in"
             data-aos-delay={100}
           />
@@ -329,7 +350,7 @@ const about = () => {
           </div>
           <div
             className="col-lg-6 img-bg"
-            style={{ backgroundImage: "url(../src/assets/img/about-3.jpg)" }}
+            style={{ backgroundImage: `url(${About3})` }}
             data-aos="zoom-in"
             data-aos-delay={100}
           />
@@ -354,7 +375,7 @@ const about = () => {
           >
             <div className="member-img">
               <img
-                src="../src/assets/img/team/team-1.jpg"
+                src={Team1}
                 className="img-fluid"
                 alt=""
               />
@@ -390,7 +411,7 @@ const about = () => {
           >
             <div className="member-img">
               <img
-                src="../src/assets/img/team/team-2.jpg"
+                src={Team2}
                 className="img-fluid"
                 alt=""
               />
@@ -427,7 +448,7 @@ const about = () => {
           >
             <div className="member-img">
               <img
-                src="../src/assets/img/team/team-3.jpg"
+                src={Team3}
                 className="img-fluid"
                 alt=""
               />
@@ -463,7 +484,7 @@ const about = () => {
           >
             <div className="member-img">
               <img
-                src="../src/assets/img/team/team-4.jpg"
+                src={Team4}
                 className="img-fluid"
                 alt=""
               />
@@ -499,7 +520,7 @@ const about = () => {
           >
             <div className="member-img">
               <img
-                src="../src/assets/img/team/team-5.jpg"
+                src={Team5}
                 className="img-fluid"
                 alt=""
               />
@@ -535,7 +556,7 @@ const about = () => {
           >
             <div className="member-img">
               <img
-                src="../src/assets/img/team/team-6.jpg"
+                src={Team6}
                 className="img-fluid"
                 alt=""
               />
@@ -584,7 +605,7 @@ const about = () => {
               <div className="testimonial-wrap">
                 <div className="testimonial-item">
                   <img
-                    src="../src/assets/img/testimonials/testimonials-1.jpg"
+                    src={Testimonials1}
                     className="testimonial-img"
                     alt=""
                   />
@@ -611,7 +632,7 @@ const about = () => {
               <div className="testimonial-wrap">
                 <div className="testimonial-item">
                   <img
-                    src="../src/assets/img/testimonials/testimonials-2.jpg"
+                   src={Testimonials2}
                     className="testimonial-img"
                     alt=""
                   />
@@ -640,7 +661,7 @@ const about = () => {
               <div className="testimonial-wrap">
                 <div className="testimonial-item">
                   <img
-                    src="/src/assets/img/testimonials/testimonials-3.jpg"
+                    src={Testimonials3}
                     className="testimonial-img"
                     alt=""
                   />
@@ -668,7 +689,7 @@ const about = () => {
               <div className="testimonial-wrap">
                 <div className="testimonial-item">
                   <img
-                    src="/src/assets/img/testimonials/testimonials-4.jpg"
+                   src={Testimonials4}
                     className="testimonial-img"
                     alt=""
                   />
@@ -697,7 +718,7 @@ const about = () => {
               <div className="testimonial-wrap">
                 <div className="testimonial-item">
                   <img
-                    src="/src/assets/img/testimonials/testimonials-5.jpg"
+                   src={Testimonials5}
                     className="testimonial-img"
                     alt=""
                   />
