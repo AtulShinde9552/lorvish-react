@@ -749,102 +749,53 @@ const about = () => {
       </div>
     </section>
     {/* End Testimonials Section */}
-
-    <footer id="footer" className="footer">
-      <div className="footer-content position-relative">
+     {/* START SUB FOOTER */}
+     <div id="sub-footer">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4 col-md-6">
-              <div className="footer-info">
-                <h3>Lorvish Technologies</h3>
-                <p>
-                4819 Emperor Boulevard <br />
-                Suite 400, Durham, NC 27703.<br /><br />
-                  <strong>Phone:</strong> +1 919-999-0626<br />
-                  <strong>Email:</strong> info@lorvish.com<br />
-                </p>
-                <div className="social-links d-flex mt-3">
-                  <a href="#" className="d-flex align-items-center justify-content-center">
-                    <FaTwitter />
-                  </a>
-                  <a href="#" className="d-flex align-items-center justify-content-center">
-                    <FaFacebook />
-                  </a>
-                  <a href="#" className="d-flex align-items-center justify-content-center">
-                    <FaInstagram />
-                  </a>
-                  <a href="#" className="d-flex align-items-center justify-content-center">
-                    <FaLinkedin />
-                  </a>
-                </div>
+            {/* Left Side */}
+            <div className="col-lg-8">
+              <div className="sub-foot-left">
+                <ul>
+                  <li>
+                    <a href="#">Support</a>
+                  </li>
+                  <li>
+                    <a href="#">Terms &amp; Conditions</a>
+                  </li>
+                  <li>
+                    <a href="#">Privacy Policy</a>
+                  </li>
+                  <li>
+                    © 2020
+                    <span style={{ color: "#0084ff" }}>
+                      Lorvish Technologies.{" "}
+                    </span>{" "}
+                    All Right Reseverd.
+                  </li>
+                </ul>
               </div>
             </div>
-
-            <div className="col-lg-2 col-md-3 footer-links">
-              <h4>Useful Links</h4>
-              <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-            </div>
-
-            <div className="col-lg-2 col-md-3 footer-links">
-              <h4>Our Services</h4>
-              <ul>
-                <li><a href="#">Web Design</a></li>
-                <li><a href="#">Web Development</a></li>
-                <li><a href="#">Product Management</a></li>
-                <li><a href="#">Marketing</a></li>
-                <li><a href="#">Graphic Design</a></li>
-              </ul>
-            </div>
-
-            <div className="col-lg-2 col-md-3 footer-links">
-              <h4>Hic solutasetp</h4>
-              <ul>
-                <li><a href="#">lorem lipsum</a></li>
-                <li><a href="#">lorem lipsum</a></li>
-                <li><a href="#">lorem lipsum</a></li>
-                <li><a href="#">lorem lipsum</a></li>
-                <li><a href="#">lorem lipsum</a></li>
-              </ul>
-            </div>
-
-            <div className="col-lg-2 col-md-3 footer-links">
-              <h4>Nobis illum</h4>
-              <ul>
-                <li><a href="#">Ipsam</a></li>
-                <li><a href="#">Laudantium dolorum</a></li>
-                <li><a href="#">Dinera</a></li>
-                <li><a href="#">Trodelas</a></li>
-                <li><a href="#">Flexo</a></li>
-              </ul>
+            {/* Right Side */}
+            <div className="col-lg-4">
+              <div className="sub-foot-right">
+                <ul>
+                  <li>
+                    Designed By <a href="#">Fleet IT Solutions Pvt Ltd.</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-      <div className="footer-legal text-center position-relative">
-        <div className="container">
-          <div className="copyright">
-            &copy; Copyright <strong><span>Lorvish Technologies.</span></strong>. All Rights Reserved
-          </div>
-          <div className="credits">
-          Designed By <a href="#">Fleet IT Solutions Pvt Ltd.</a>
-          </div>
-        </div>
+      {/* END SUB FOOTER */}
+      {/* START BACK TO TOP BTN */}
+      <div className="backto-top-btn">
+        <a href="#body-top" className="top-btn btn btn-primary">
+          <i className="mdi mdi-arrow-up mdi-24px" />
+        </a>
       </div>
-
-      <a href="#" className="scroll-top d-flex align-items-center justify-content-center">
-        <FaArrowUp />
-      </a>
-
-      {/* <div id="preloader"></div> */}
-    </footer>
-
   </main>
   {/* End #main */}
 </>
