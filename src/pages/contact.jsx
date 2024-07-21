@@ -241,7 +241,8 @@ const contact = () => {
           </motion.div>
         </div>
       </section>
-      <section className="map mt-5">
+ <h3 className="text-center">INDIA HEADQUARTERS</h3>
+      <section className="map">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -254,6 +255,43 @@ const contact = () => {
                   style={{ border: 0, borderRadius: "5px", position: "relative", zIndex: 2 }}
                   allowFullScreen=""
                 ></iframe>
+              </div>
+            </div>
+            <div className="col-lg-10 offset-lg-1">
+              <div className="row">
+                <div className="col-lg-4">
+                  <div className="info-item">
+                    <i className="fa fa-envelope"></i>
+                    <h4>Email Address</h4>
+                    <a href="">info@lorvish.com</a>
+                  </div>
+                </div>
+                <div className="col-lg-4">
+                  <div className="info-item">
+                    <i className="fa fa-phone"></i>
+                    <h4>Phone Number</h4>
+                    <a href="">+1 919-999-0626</a>
+                  </div>
+                </div>
+                <div className="col-lg-4">
+                  <div className="info-item">
+                    <i className="fa fa-map-marked-alt"></i>
+                    <h4>Address</h4>
+                    <a href="#">#502, Techno Residency, Near paradise Hotel, Raheja Mindspace Building, Madhapur, Hyderabad- 500081.</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+ <h3 className="text-center">US HEADQUARTERS</h3>
+      <section className="map">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div id="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.718327256979!2d-78.86444438473976!3d35.73314528018219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ac93b513e8a0b1%3A0xd553f364b7d4db8d!2sLorvish%20Technologies!5e0!3m2!1sen!2sin!4v1594189874539!5m2!1sen!2sin" width="400" height="350" frameborder="0" style={{border:"0"}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
               </div>
             </div>
             <div className="col-lg-10 offset-lg-1">

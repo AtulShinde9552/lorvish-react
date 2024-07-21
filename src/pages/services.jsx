@@ -1,5 +1,9 @@
 import React from "react";
-
+import About3 from '../assets/img/about-3.jpg'
+import Lorvish from "../assets/img/services/Lovrish.jpg"
+import Managed from "../assets/img/services/standard-quality-control-concept-m.jpg"
+import ERPImg from "../assets/img/services/representation-user-experience-interface-design.jpg"
+import ItStaf from "../assets/img/services/medium-shot-people-working-together-office.jpg"
 const services = () => {
   return (
     <>
@@ -95,24 +99,11 @@ const services = () => {
               text-align: center;
               font-size: 14px;
             }
-
-            .tab-pane h4 {
-              font-size: 24px;
-              margin-bottom: 15px;
-              color: #f7941d;
-            }
-
-            .tab-pane img {
-              max-width: 100%;
-              height: auto;
-              margin-bottom: 20px;
-            }
-
-            
           `,
         }}
       ></style>
       {/* START BREADCRUMB */}
+      <main id="main">
       <div id="breadcrumb">
         <div className="container">
           <div className="mb-4">
@@ -132,171 +123,464 @@ const services = () => {
       </div>
       {/* END BREADCRUMB */}
       <br /> <br />
-      {/* START WHO WE ARE */}
-      <section class="service-details">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 offset-lg-3">
+      <div class="col-lg-6 offset-lg-3">
           <div class="section-heading">
             <h6>Investment in Details</h6>
             <h4>Upgrade your knowledge</h4>
           </div>
         </div>
-        <div class="col-lg-10 offset-lg-1">
-          <div class="naccs">
-            <div class="tabs">
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="menu">
-                    <div class="active gradient-border"><span>CLOUD OFFERINGS</span></div>
-                    <div class="gradient-border"><span>MANAGED SERVICES</span></div>
-                    <div class="gradient-border"><span>ERP TECHNOLOGIES</span></div>
-                    <div class="gradient-border mt-3"><span>IT STAFFING</span></div>
-                    <div class="gradient-border mt-3"><span>PROJECT OUTSOURCING</span></div>
+    {/* ======= About Section ======= */}
+    <section id="about" className="about">
+      <div className="container" data-aos="fade-up">
+        <div className="row position-relative">
+          <div
+            className="col-lg-7 about-img"
+            style={{ backgroundImage: `url(${Lorvish})` }}
+          />
+          <div className="col-lg-7">
+            <h2>CLOUD OFFERINGS</h2>
+            <div className="our-story">
+              <h3>Lorvish offers</h3>
+              <p>
+              Lorvish offers full range of consultancy & training methods for data analysis, business consul tation, and strategic ways for business.
+              </p>
+              <ul>
+                <li>
+                  <i className="bi bi-check-circle" />{" "}
+                  <span>Business Development</span>
+                </li>
+                <li>
+                  <i className="bi bi-check-circle" />{" "}
+                  <span>Idea Innovation</span>
+                </li>
+                <li>
+                  <i className="bi bi-check-circle" />{" "}
+                  <span>Investment Analysis</span>
+                </li>
+              </ul>
+              <p>
+                Watch creative process behind Our brand success
+              </p>
+              {/* <div className="watch-video d-flex align-items-center position-relative">
+                <i className="bi bi-play-circle" />
+                <a
+                  href="/services/lorvishOffers"
+                  className="glightbox stretched-link"
+                >
+                  Read More
+                </a>
+              </div> */}
+            <a href="/services/lorvishOffers" className="btn btn-outline-primary mt-3 w-100">Read More</a>
 
-                  </div>
-                </div>
-                <div class="col-lg-12">
-                  <ul class="nacc">
-                    <li class="active">
-                      <div>
-                        <div class="left-image">
-                          <img src="assets/images/cloud.png" alt=""/>
-                        </div>
-                        <div class="right-content">
-                          <h4>CLOUD OFFERINGS</h4>
-                          <p>
-                    A cloud service is any service made available to users on
-                    demand via the Internet from a cloud computing provider's
-                    servers as opposed to being provided from a company's own
-                    on-premises servers.
-                  </p>
-                  <p>
-                    Cloud computing is the on-demand availability of computer
-                    system resources, especially data storage and computing
-                    power, without direct active management by the user. The
-                    term is generally used to describe data centers available to
-                    many users over the Internet.
-                  </p>
-                  <p>
-                    Simply put, cloud computing is the delivery of computing
-                    services—including servers, storage, databases, networking,
-                    software, analytics, and intelligence—over the Internet
-                    (“the cloud”) to offer faster innovation, flexible
-                    resources, and economies of scale. You typically pay only
-                    for cloud services you use, helping lower your operating
-                    costs, run your infrastructure more efficiently and scale as
-                    your business needs change.
-                  </p>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <div class="left-image">
-                        <img src="assets/images/mangedservices.png" />
-                        </div>
-                        <div class="right-content">
-                        <h4>Managed Services</h4>
-                  <p>
-                    Managed services is the practice of outsourcing the
-                    responsibility for maintaining, and anticipating need for, a
-                    range of processes and functions in order to improve
-                    operations and cut expenses.
-                  </p>
-                  <p>
-                    The managed service provider assumes ongoing responsibility
-                    for monitoring, managing and/or problem resolution for
-                    selected IT systems and functions on your behalf. MSPs offer
-                    a range of services, including but not limited to,
-                    monitoring and managing networks, servers, desktops and
-                    other endpoints, as well as providing security services and
-                    disaster recovery.
-                  </p>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <div class="left-image">
-                        <img src="assets/images/erp.png" />
-                        </div>
-                        <div class="right-content">
-                        <h4>ERP Technologies</h4>
-                  <p>
-                    ERP (Enterprise Resource Planning) refers to a type of
-                    software that organizations use to manage day-to-day
-                    business activities such as accounting, procurement, project
-                    management, risk management and compliance, and supply chain
-                    operations.
-                  </p>
-                  <p>
-                    A complete ERP suite also includes enterprise performance
-                    management, software that helps plan, budget, predict, and
-                    report on an organization’s financial results. ERP systems
-                    tie together a multitude of business processes and enable
-                    the flow of data between them. By collecting an
-                    organization’s shared transactional data from multiple
-                    sources, ERP systems eliminate data duplication and provide
-                    data integrity with a single source of truth.
-                  </p>
-                        </div>
-                      </div>
-                    </li>
-
-                    <li>
-                      <div>
-                        <div class="left-image">
-                        <img src="assets/images/itsaffing.png" />
-                        </div>
-                        <div class="right-content">
-                        <h4>IT Staffing</h4>
-                  <p>
-                    IT staffing services provide businesses with skilled IT
-                    professionals on a short-term or long-term basis to fill
-                    gaps in their workforce, support IT projects, and address
-                    specific business needs.
-                  </p>
-                  <p>
-                    Our IT staffing solutions offer you access to highly
-                    qualified and experienced IT professionals who can help your
-                    business stay competitive in today’s fast-paced technological
-                    landscape.
-                  </p>
-                        </div>
-                      </div>
-                    </li>
-                    
-                    <li>
-                      <div>
-                        <div class="left-image">
-                        <img src="assets/images/outsourcing.png" />
-                        </div>
-                        <div class="right-content">
-                        <h4>Project Outsourcing</h4>
-                  <p>
-                    Project outsourcing involves hiring an external service
-                    provider to carry out a project on behalf of an
-                    organization. This strategy can help businesses to save
-                    costs, access specialized skills, and improve efficiency.
-                  </p>
-                  <p>
-                    Outsourcing allows businesses to focus on their core
-                    competencies while leveraging the expertise of external
-                    providers to complete specific projects successfully.
-                  </p>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+    {/* End About Section */}
+
+    {/* End Stats Counter Section */}
+    {/* ======= Alt Services Section ======= */}
+    <section id="alt-services" className="alt-services">
+      <div className="container" data-aos="fade-up">
+        <div className="row justify-content-around gy-4">
+          <div
+            className="col-lg-6 img-bg"
+            style={{ backgroundImage: `url(${Managed})` }}
+            data-aos="zoom-in"
+            data-aos-delay={100}
+          />
+          <div className="col-lg-5 d-flex flex-column justify-content-center">
+            <h3>MANAGED SERVICES</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt veniam error ratione voluptatum repellendus ex doloribus accusamus suscipit quia sint. Qui perspiciatis aspernatur quo. Esse.
+            </p>
+            <div
+              className="icon-box d-flex position-relative"
+              data-aos="fade-up"
+              data-aos-delay={100}
+            >
+              <i className="bi bi-easel flex-shrink-0" />
+              <div>
+                <h4>
+                  <a href="#" className="stretched-link">
+                    Versatile Operation
+                  </a>
+                </h4>
+                <p>
+                  Voluptatum deleniti atque corrupti quos dolores et quas
+                  molestias excepturi sint occaecati cupiditate non provident
+                </p>
+              </div>
+            </div>
+            {/* End Icon Box */}
+            <div
+              className="icon-box d-flex position-relative"
+              data-aos="fade-up"
+              data-aos-delay={200}
+            >
+              <i className="bi bi-patch-check flex-shrink-0" />
+              <div>
+                <h4>
+                  <a href="#" className="stretched-link">
+                    Skilled Manpower
+                  </a>
+                </h4>
+                <p>
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque
+                </p>
+              </div>
+            </div>
+            {/* End Icon Box */}
+            <div
+              className="icon-box d-flex position-relative"
+              data-aos="fade-up"
+              data-aos-delay={300}
+            >
+              <i className="bi bi-brightness-high flex-shrink-0" />
+              <div>
+                <h4>
+                  <a href="#" className="stretched-link">
+                   Research Technology
+                  </a>
+                </h4>
+                <p>
+                  Explicabo est voluptatum asperiores consequatur magnam. Et
+                  veritatis odit. Sunt aut deserunt minus aut eligendi omnis
+                </p>
+              </div>
+            </div>
+            {/* End Icon Box */}
+            <div
+              className="icon-box d-flex position-relative"
+              data-aos="fade-up"
+              data-aos-delay={400}
+            >
+              <i className="bi bi-brightness-high flex-shrink-0" />
+              <div>
+                <h4>
+                  <a href="#" className="stretched-link">
+                    Global Reach
+                  </a>
+                </h4>
+                <p>
+                  Est voluptatem labore deleniti quis a delectus et. Saepe
+                  dolorem libero sit non aspernatur odit amet. Et eligendi
+                </p>
+              </div>
+            </div>
+            {/* End Icon Box */}
+            <a href="/services/managedservice" className="btn btn-outline-primary mt-3 w-100">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    {/* End Alt Services Section */}
+    {/* ======= Alt Services Section 2 ======= */}
+    <section id="alt-services-2" className="alt-services section-bg">
+      <div className="container" data-aos="fade-up">
+        <div className="row justify-content-around gy-4">
+          <div className="col-lg-5 d-flex flex-column justify-content-center">
+            <h3>
+            ERP TECHNOLOGIES
+            </h3>
+            <p>
+              Maxime quia dolorum alias perspiciatis. Earum voluptatem sint at
+              non. Ducimus maxime minima iste magni sit praesentium assumenda
+              minus. Amet rerum saepe tempora vero.
+            </p>
+            <div
+              className="icon-box d-flex position-relative"
+              data-aos="fade-up"
+              data-aos-delay={100}
+            >
+              <i className="bi bi-easel flex-shrink-0" />
+              <div>
+                <h4>
+                  <a href="" className="stretched-link">
+                    Lorem Ipsum
+                  </a>
+                </h4>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa itaque minus quidem, quibusdam ipsam mollitia fuga voluptatum!
+                </p>
+              </div>
+            </div>
+            {/* End Icon Box */}
+            {/* <a href="/services/ERP" className="btn btn-outline-primary mt-3 w-100">Read More</a> */}
+            <div
+              className="icon-box d-flex position-relative"
+              data-aos="fade-up"
+              data-aos-delay={200}
+            >
+              <i className="bi bi-patch-check flex-shrink-0" />
+              <div>
+                <h4>
+                  <a href="" className="stretched-link">
+                    Nemo Enim
+                  </a>
+                </h4>
+                <p>
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque
+                </p>
+              </div>
+            </div>
+            {/* End Icon Box */}
+            <div
+              className="icon-box d-flex position-relative"
+              data-aos="fade-up"
+              data-aos-delay={300}
+            >
+              <i className="bi bi-brightness-high flex-shrink-0" />
+              <div>
+                <h4>
+                  <a href="" className="stretched-link">
+                    Dine Pad
+                  </a>
+                </h4>
+                <p>
+                  Explicabo est voluptatum asperiores consequatur magnam. Et
+                  veritatis odit. Sunt aut deserunt minus aut eligendi omnis
+                </p>
+              </div>
+            </div>
+            {/* End Icon Box */}
+            <div
+              className="icon-box d-flex position-relative"
+              data-aos="fade-up"
+              data-aos-delay={400}
+            >
+              <i className="bi bi-brightness-high flex-shrink-0" />
+              <div>
+                <h4>
+                  <a href="" className="stretched-link">
+                    Tride clov
+                  </a>
+                </h4>
+                <p>
+                  Est voluptatem labore deleniti quis a delectus et. Saepe
+                  dolorem libero sit non aspernatur odit amet. Et eligendi
+                </p>
+              </div>
+            </div>
+            {/* End Icon Box */}
+            <a href="/services/ERP" className="btn btn-outline-primary mt-3 w-100">Read More</a>
+
+          </div>
+          <div
+            className="col-lg-6 img-bg"
+            style={{ backgroundImage: `url(${ERPImg})` }}
+            data-aos="zoom-in"
+            data-aos-delay={100}
+          />
+        </div>
+      </div>
+    </section>
+    {/* End Alt Services Section 2 */}
+        {/* ======= Alt Services Section 2 ======= */}
+        <section id="alt-services-2" className="alt-services section-bg">
+      <div className="container" data-aos="fade-up">
+        <div className="row justify-content-around gy-4">
+        <div
+            className="col-lg-6 img-bg"
+            style={{ backgroundImage: `url(${ItStaf})` }}
+            data-aos="zoom-in"
+            data-aos-delay={100}
+          />
+          <div className="col-lg-5 d-flex flex-column justify-content-center">
+            <h3>
+            IT STAFFING
+            </h3>
+            <p>
+              Maxime quia dolorum alias perspiciatis. Earum voluptatem sint at
+              non. Ducimus maxime minima iste magni sit praesentium assumenda
+              minus. Amet rerum saepe tempora vero.
+            </p>
+            <div
+              className="icon-box d-flex position-relative"
+              data-aos="fade-up"
+              data-aos-delay={100}
+            >
+              <i className="bi bi-easel flex-shrink-0" />
+              <div>
+                <h4>
+                  <a href="" className="stretched-link">
+                    Lorem Ipsum
+                  </a>
+                </h4>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa itaque minus quidem, quibusdam ipsam mollitia fuga voluptatum!
+                </p>
+              </div>
+            </div>
+            {/* End Icon Box */}
+            <div
+              className="icon-box d-flex position-relative"
+              data-aos="fade-up"
+              data-aos-delay={200}
+            >
+              <i className="bi bi-patch-check flex-shrink-0" />
+              <div>
+                <h4>
+                  <a href="" className="stretched-link">
+                    Nemo Enim
+                  </a>
+                </h4>
+                <p>
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque
+                </p>
+              </div>
+            </div>
+            {/* End Icon Box */}
+            <div
+              className="icon-box d-flex position-relative"
+              data-aos="fade-up"
+              data-aos-delay={300}
+            >
+              <i className="bi bi-brightness-high flex-shrink-0" />
+              <div>
+                <h4>
+                  <a href="" className="stretched-link">
+                    Dine Pad
+                  </a>
+                </h4>
+                <p>
+                  Explicabo est voluptatum asperiores consequatur magnam. Et
+                  veritatis odit. Sunt aut deserunt minus aut eligendi omnis
+                </p>
+              </div>
+            </div>
+            {/* End Icon Box */}
+            <div
+              className="icon-box d-flex position-relative"
+              data-aos="fade-up"
+              data-aos-delay={400}
+            >
+              <i className="bi bi-brightness-high flex-shrink-0" />
+              <div>
+                <h4>
+                  <a href="" className="stretched-link">
+                    Tride clov
+                  </a>
+                </h4>
+                <p>
+                  Est voluptatem labore deleniti quis a delectus et. Saepe
+                  dolorem libero sit non aspernatur odit amet. Et eligendi
+                </p>
+              </div>
+            </div>
+            {/* End Icon Box */}
+            <a href="/services/Itstaffing" className="btn btn-outline-primary mt-3 w-100">Read More</a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    {/* End Alt Services Section 2 */}
+        {/* ======= Alt Services Section 2 ======= */}
+        <section id="alt-services-2" className="alt-services section-bg">
+      <div className="container" data-aos="fade-up">
+        <div className="row justify-content-around gy-4">
+          <div className="col-lg-5 d-flex flex-column justify-content-center">
+            <h3>
+            PROJECT OUTSOURCING
+            </h3>
+            <p>
+              Maxime quia dolorum alias perspiciatis. Earum voluptatem sint at
+              non. Ducimus maxime minima iste magni sit praesentium assumenda
+              minus. Amet rerum saepe tempora vero.
+            </p>
+            <div
+              className="icon-box d-flex position-relative"
+              data-aos="fade-up"
+              data-aos-delay={100}
+            >
+              <i className="bi bi-easel flex-shrink-0" />
+              <div>
+                <h4>
+                  <a href="" className="stretched-link">
+                    Lorem Ipsum
+                  </a>
+                </h4>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa itaque minus quidem, quibusdam ipsam mollitia fuga voluptatum!
+                </p>
+              </div>
+            </div>
+            {/* End Icon Box */}
+            <div
+              className="icon-box d-flex position-relative"
+              data-aos="fade-up"
+              data-aos-delay={200}
+            >
+              <i className="bi bi-patch-check flex-shrink-0" />
+              <div>
+                <h4>
+                  <a href="" className="stretched-link">
+                    Nemo Enim
+                  </a>
+                </h4>
+                <p>
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque
+                </p>
+              </div>
+            </div>
+            {/* End Icon Box */}
+            <div
+              className="icon-box d-flex position-relative"
+              data-aos="fade-up"
+              data-aos-delay={300}
+            >
+              <i className="bi bi-brightness-high flex-shrink-0" />
+              <div>
+                <h4>
+                  <a href="" className="stretched-link">
+                    Dine Pad
+                  </a>
+                </h4>
+                <p>
+                  Explicabo est voluptatum asperiores consequatur magnam. Et
+                  veritatis odit. Sunt aut deserunt minus aut eligendi omnis
+                </p>
+              </div>
+            </div>
+            {/* End Icon Box */}
+            <div
+              className="icon-box d-flex position-relative"
+              data-aos="fade-up"
+              data-aos-delay={400}
+            >
+              <i className="bi bi-brightness-high flex-shrink-0" />
+              <div>
+                <h4>
+                  <a href="" className="stretched-link">
+                    Tride clov
+                  </a>
+                </h4>
+                <p>
+                  Est voluptatem labore deleniti quis a delectus et. Saepe
+                  dolorem libero sit non aspernatur odit amet. Et eligendi
+                </p>
+              </div>
+            </div>
+            {/* End Icon Box */}
+            <a href="/services/projectoutsourcing" className="btn btn-outline-primary mt-3 w-100">Read More</a>
+
+          </div>
+          <div
+            className="col-lg-6 img-bg"
+            style={{ backgroundImage: `url(${About3})` }}
+            data-aos="zoom-in"
+            data-aos-delay={100}
+          />
+        </div>
+      </div>
+    </section>
+    {/* End Alt Services Section 2 */}
 
       <br /> <br />
       {/* START SUB FOOTER */}
@@ -347,6 +631,7 @@ const services = () => {
         </a>
       </div>
       {/* END BACK TO TOP BTN */}
+      </main>
     </>
   );
 };

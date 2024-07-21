@@ -15,89 +15,105 @@ const Home = () => {
     <div>
       {/* Main Slider */}
       <div id="main-slider" className="mb-5" data-aos="fade-up">
-        <div
-          id="carouselExampleIndicators"
-          className="carousel slide carousel-fade"
-          data-ride="carousel"
-          data-interval={5000}
-        >
-          <ol className="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" className="active" />
-            <li data-target="#carouselExampleIndicators" data-slide-to={1} />
-            <li data-target="#carouselExampleIndicators" data-slide-to={2} />
-          </ol>
-          <div className="carousel-inner" role="listbox">
-            <div
-              className="carousel-item active"
-              style={{
-                backgroundImage: 'url("assets/images/slider/header-1.jpg")',
-              }}
-            >
-              <div className="carousel-caption">
-                <div className="container">
-                  <h3>
-                    Project Management{" "}
-                    <span className="color-primary">Services</span>
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div
-              className="carousel-item"
-              style={{
-                backgroundImage: 'url("assets/images/slider/header-2.jpg")',
-              }}
-            >
-              <div className="carousel-caption">
-                <div className="container">
-                  <h3>
-                    Implementation, Upgrade, Support Services{" "}
-                    <span className="color-primary">
-                      &amp; 24X7 Infra Support Services
-                    </span>
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div
-              className="carousel-item"
-              style={{
-                backgroundImage: 'url("assets/images/slider/header-3.jpg")',
-              }}
-            >
-              <div className="carousel-caption">
-                <div className="container">
-                  <h3>
-                    Testing Services - Test Planning/Execution,{" "}
-                    <span className="color-primary">
-                      Automation, Perf Testing
-                    </span>
-                  </h3>
-                </div>
+      <div
+        id="carouselExampleIndicators"
+        className="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+        data-bs-interval="2000"
+      >
+        <ol className="carousel-indicators">
+          <li
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            className="active"
+          ></li>
+          <li
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+          ></li>
+          <li
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+          ></li>
+        </ol>
+        <div className="carousel-inner">
+          <div
+            className="carousel-item active"
+            style={{
+              backgroundImage: 'url("assets/images/slider/header-1.jpg")',
+            }}
+          >
+            <div className="carousel-caption">
+              <div className="container">
+                <h3>
+                  Project Management{" "}
+                  <span className="color-primary">Services</span>
+                </h3>
               </div>
             </div>
           </div>
-          <a
-            className="carousel-control-prev"
-            href="#carouselExampleIndicators"
-            role="button"
-            data-slide="prev"
+          <div
+            className="carousel-item"
+            style={{
+              backgroundImage: 'url("assets/images/slider/header-2.jpg")',
+            }}
           >
-            <span className="carousel-control-prev-icon" aria-hidden="true" />
-            <span className="sr-only">Previous</span>
-          </a>
-          <a
-            className="carousel-control-next"
-            href="#carouselExampleIndicators"
-            role="button"
-            data-slide="next"
+            <div className="carousel-caption">
+              <div className="container">
+                <h3>
+                  Implementation, Upgrade, Support Services{" "}
+                  <span className="color-primary">
+                    &amp; 24X7 Infra Support Services
+                  </span>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div
+            className="carousel-item"
+            style={{
+              backgroundImage: 'url("assets/images/slider/header-3.jpg")',
+            }}
           >
-            <span className="carousel-control-next-icon" aria-hidden="true" />
-            <span className="sr-only">Next</span>
-          </a>
+            <div className="carousel-caption">
+              <div className="container">
+                <h3>
+                  Testing Services - Test Planning/Execution,{" "}
+                  <span className="color-primary">
+                    Automation, Perf Testing
+                  </span>
+                </h3>
+              </div>
+            </div>
+          </div>
         </div>
+        <a
+          className="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-bs-slide="prev"
+        >
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Previous</span>
+        </a>
+        <a
+          className="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-bs-slide="next"
+        >
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Next</span>
+        </a>
       </div>
-
+      </div>87
+      \2w
       {/* Counter */}
       <div id="counter" className="py-5 bg-light " data-aos="fade-up">
         <div className="container">
@@ -167,100 +183,134 @@ const Home = () => {
       </div>
 
       {/* What We Offer */}
-<div class="container-fluid py-5" data-aos="fade-up">
-  <div class="container py-5">
-    <div
-      class="section-title text-center position-relative pb-3 mb-5 mx-auto"
-      style={{ maxWidth: "600px" }}
-    >
-      <h5 class="fw-bold text-primary text-uppercase">Our Services</h5>
-      <h1 class="mb-0">
-        Custom IT Solutions for Your Successful Business
-      </h1>
-    </div>
-    <div class="row g-5">
-      <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
-        <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-          <div class="service-icon">
-            <i class="fa fa-shield-alt text-white"></i>
+      <div class="container-fluid py-5" data-aos="fade-up">
+        <div class="container py-5">
+          <div
+            class="section-title text-center position-relative pb-3 mb-5 mx-auto"
+            style={{ maxWidth: "600px" }}
+          >
+            <h5 class="fw-bold text-primary text-uppercase">Our Services</h5>
+            <h1 class="mb-0">
+              Custom IT Solutions for Your Successful Business
+            </h1>
           </div>
-          <h4 class="mb-3">CLOUD OFFERINGS</h4>
-          <p class="m-0">
-            We provide comprehensive cloud solutions, including cloud migration, integration, and management services to enhance your business agility and performance.
-          </p>
-          <a class="btn btn-lg btn-primary rounded" href="">
-            <i class="bi bi-arrow-right"></i>
-          </a>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">
-        <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-          <div class="service-icon">
-            <i class="fa fa-chart-pie text-white"></i>
+          <div class="row g-5">
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                <div class="service-icon">
+                  <i class="fa fa-shield-alt text-white"></i>
+                </div>
+                <h4 class="mb-3">CLOUD OFFERINGS</h4>
+                <p class="m-0">
+                  We provide comprehensive cloud solutions, including cloud
+                  migration, integration, and management services to enhance
+                  your business agility and performance.
+                </p>
+                <a class="btn btn-lg btn-primary rounded" href="">
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="zoom-in"
+              data-aos-delay="600"
+            >
+              <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                <div class="service-icon">
+                  <i class="fa fa-chart-pie text-white"></i>
+                </div>
+                <h4 class="mb-3">Managed Services</h4>
+                <p class="m-0">
+                  Our managed services offer proactive monitoring, maintenance,
+                  and support to ensure your IT infrastructure runs smoothly and
+                  efficiently.
+                </p>
+                <a class="btn btn-lg btn-primary rounded" href="">
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="zoom-in"
+              data-aos-delay="900"
+            >
+              <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                <div class="service-icon">
+                  <i class="fa fa-code text-white"></i>
+                </div>
+                <h4 class="mb-3">ERP Technologies</h4>
+                <p class="m-0">
+                  We offer ERP solutions that streamline your business
+                  processes, improve efficiency, and provide real-time insights
+                  for better decision-making.
+                </p>
+                <a class="btn btn-lg btn-primary rounded" href="">
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                <div class="service-icon">
+                  <i class="fab fa-android text-white"></i>
+                </div>
+                <h4 class="mb-3">IT Staffing</h4>
+                <p class="m-0">
+                  Our IT staffing services provide you with skilled
+                  professionals to meet your short-term or long-term project
+                  requirements, ensuring your business continuity.
+                </p>
+                <a class="btn btn-lg btn-primary rounded" href="">
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="zoom-in"
+              data-aos-delay="600"
+            >
+              <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                <div class="service-icon">
+                  <i class="fa fa-search text-white"></i>
+                </div>
+                <h4 class="mb-3">Project Outsourcing</h4>
+                <p class="m-0">
+                  We manage your IT projects from inception to completion,
+                  delivering high-quality solutions on time and within budget.
+                </p>
+                <a class="btn btn-lg btn-primary rounded" href="">
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="zoom-in"
+              data-aos-delay="900"
+            >
+              <div class="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-5">
+                <h3 class="text-white mb-3">IT Consulting</h3>
+                <p class="text-white mb-3">
+                  Our IT consulting services help you navigate complex IT
+                  challenges, align technology with your business strategy, and
+                  achieve your goals effectively.
+                </p>
+              </div>
+            </div>
           </div>
-          <h4 class="mb-3">Managed Services</h4>
-          <p class="m-0">
-            Our managed services offer proactive monitoring, maintenance, and support to ensure your IT infrastructure runs smoothly and efficiently.
-          </p>
-          <a class="btn btn-lg btn-primary rounded" href="">
-            <i class="bi bi-arrow-right"></i>
-          </a>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="900">
-        <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-          <div class="service-icon">
-            <i class="fa fa-code text-white"></i>
-          </div>
-          <h4 class="mb-3">ERP Technologies</h4>
-          <p class="m-0">
-            We offer ERP solutions that streamline your business processes, improve efficiency, and provide real-time insights for better decision-making.
-          </p>
-          <a class="btn btn-lg btn-primary rounded" href="">
-            <i class="bi bi-arrow-right"></i>
-          </a>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
-        <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-          <div class="service-icon">
-            <i class="fab fa-android text-white"></i>
-          </div>
-          <h4 class="mb-3">IT Staffing</h4>
-          <p class="m-0">
-            Our IT staffing services provide you with skilled professionals to meet your short-term or long-term project requirements, ensuring your business continuity.
-          </p>
-          <a class="btn btn-lg btn-primary rounded" href="">
-            <i class="bi bi-arrow-right"></i>
-          </a>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">
-        <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-          <div class="service-icon">
-            <i class="fa fa-search text-white"></i>
-          </div>
-          <h4 class="mb-3">Project Outsourcing</h4>
-          <p class="m-0">
-            We manage your IT projects from inception to completion, delivering high-quality solutions on time and within budget.
-          </p>
-          <a class="btn btn-lg btn-primary rounded" href="">
-            <i class="bi bi-arrow-right"></i>
-          </a>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="900">
-        <div class="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-5">
-          <h3 class="text-white mb-3">IT Consulting</h3>
-          <p class="text-white mb-3">
-            Our IT consulting services help you navigate complex IT challenges, align technology with your business strategy, and achieve your goals effectively.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
 
       {/* Who We Are */}
       <div id="who-we-are" className="py-5">

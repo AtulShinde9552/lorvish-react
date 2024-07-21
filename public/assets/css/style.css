@@ -1405,6 +1405,11 @@ button[aria-expanded="true"] {
     background-size: cover;
     background-attachment: fixed;
 }
+#customer-says-aboutSlider {
+    
+   
+    width: 100%;
+}
 
 #customer-says:before {
     content: "";
@@ -1925,3 +1930,12 @@ button[aria-expanded="true"] {
 /**=========================
 	END COLOR CHANGE
 =========================**/
+
+.centered-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Or any other styling you need */
+    text-align: center;
+  }
