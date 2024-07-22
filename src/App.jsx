@@ -25,11 +25,11 @@ const App = () => {
       <Route path='/careers' element={<Careers/>}/>
       <Route path='/contact' element={<Contact/>}/>
 
-      <Route path='/services/lorvishOffers' element={<LorvishOffers/>}/>
-      <Route path='/services/managedservice' element={<ManagedService/>}/>
+      <Route path='/lorvishOffers' element={<LorvishOffers/>}/>
+      <Route path='/managedservice' element={<ManagedService/>}/>
       <Route path='/erp' element={<ERP/>}/>
-      <Route path='/services/Itstaffing' element={<ITSTaffing/>}/>
-      <Route path='/services/projectoutsourcing' element={<ProjectOutsourcing/>}/>
+      <Route path='/Itstaffing' element={<ITSTaffing/>}/>
+      <Route path='/projectoutsourcing' element={<ProjectOutsourcing/>}/>
      
     </Routes>
     </BrowserRouter>

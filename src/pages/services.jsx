@@ -170,7 +170,7 @@ const services = () => {
                   Read More
                 </a>
               </div> */}
-            <a href="/services/lorvishOffers" className="btn btn-outline-primary mt-3 w-100">Read More</a>
+            <a href="/lorvishOffers" className="btn btn-outline-primary mt-3 w-100">Read More</a>
 
             </div>
           </div>
@@ -271,7 +271,7 @@ const services = () => {
               </div>
             </div>
             {/* End Icon Box */}
-            <a href="/services/managedservice" className="btn btn-outline-primary mt-3 w-100">Read More</a>
+            <a href="/managedservice" className="btn btn-outline-primary mt-3 w-100">Read More</a>
           </div>
         </div>
       </div>
@@ -308,7 +308,7 @@ const services = () => {
               </div>
             </div>
             {/* End Icon Box */}
-            {/* <a href="/services/ERP" className="btn btn-outline-primary mt-3 w-100">Read More</a> */}
+            {/* <a href="/ERP" className="btn btn-outline-primary mt-3 w-100">Read More</a> */}
             <div
               className="icon-box d-flex position-relative"
               data-aos="fade-up"
@@ -473,7 +473,7 @@ const services = () => {
               </div>
             </div>
             {/* End Icon Box */}
-            <a href="/services/Itstaffing" className="btn btn-outline-primary mt-3 w-100">Read More</a>
+            <a href="/Itstaffing" className="btn btn-outline-primary mt-3 w-100">Read More</a>
 
           </div>
         </div>
@@ -568,7 +568,7 @@ const services = () => {
               </div>
             </div>
             {/* End Icon Box */}
-            <a href="/services/projectoutsourcing" className="btn btn-outline-primary mt-3 w-100">Read More</a>
+            <a href="/projectoutsourcing" className="btn btn-outline-primary mt-3 w-100">Read More</a>
 
           </div>
           <div
