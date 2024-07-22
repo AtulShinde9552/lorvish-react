@@ -1,68 +1,98 @@
-import React from 'react'
-import Itstaffing from "../../assets/img/services/ItSTaf.jpeg"
+import React from "react";
+import Lorvish from "../../../public/assets/images/itstuffingImg.jpg";
+import { motion } from "framer-motion";
 
-function ITSTaffing() {
+function Itstaffing() {
   return (
-    <div>
-        <div>
-      <div className="row">
-        <div className="col-lg-1 mt-5 py-5">
-         
-        </div>
-        <div className="col-lg-7 mx-auto justify-items-center">
-          <div className="text-center">
-            <img id="blog-image" className="img-fluid mb-2" alt="Blog Image" src={Itstaffing} />
-          </div>
-       
-          <h1 id="blog-title" className="display-6 mb-3 fw-bold text-center fs-1">Outbound marketing’s future in an omnichannel stack</h1>
+    <div className="container py-5">
+      <div className="row justify-content-center">
+        <div className="col-lg-12 text-center">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5 }}
+          >
+            <img
+              id="blog-image"
+              className="img-fluid mb-4 rounded"
+              alt="Blog Image"
+              src={Lorvish}
+            />
+          </motion.div>
+          <motion.h1
+            id="blog-title"
+            className="display-5 mb-4 fw-bold text-center"
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.3 }}
+          >
+            IT STAFFING
+          </motion.h1>
           <div className="sofiya-1">
             <div className="post-content-wrapper">
-              <div id="blog-content" className="rich-text w-richtext">
-                <p>The increased relevance of Outbound marketing consumer engagement has an influence across the entire corporate stack...</p>
-                <h3>Today’s outbound marketing technology</h3>
-                <p>Marketers have traditionally loved outbound marketing because...</p>
-                <h3>The great decoupling</h3>
-                <p>A new architectural pattern arose in the late 2010s that detached shared, basic enterprise services from specific customer engagement channels...</p>
-                <h3>Decoupling data, content and decisioning</h3>
-                <p>Enterprises benefit greatly from decoupling data administration from campaign management...</p>
-                <h3>A new model</h3>
-                <p>This last trend has the potential to be the most significant...</p>
-                <p>The increased relevance of Outbound marketing consumer engagement has an influence across the entire corporate stack...</p>
-                <h3>Today’s outbound marketing technology</h3>
-                <p>Marketers have traditionally loved outbound marketing because...</p>
-                <h3>The great decoupling</h3>
-                <p>A new architectural pattern arose in the late 2010s that detached shared, basic enterprise services from specific customer engagement channels...</p>
-                <h3>Decoupling data, content and decisioning</h3>
-                <p>Enterprises benefit greatly from decoupling data administration from campaign management...</p>
-                <h3>A new model</h3>
-                <p>This last trend has the potential to be the most significant...</p>
-                <p>The increased relevance of Outbound marketing consumer engagement has an influence across the entire corporate stack...</p>
-                <h3>Today’s outbound marketing technology</h3>
-                <p>Marketers have traditionally loved outbound marketing because...</p>
-                <h3>The great decoupling</h3>
-                <p>A new architectural pattern arose in the late 2010s that detached shared, basic enterprise services from specific customer engagement channels...</p>
-                <h3>Decoupling data, content and decisioning</h3>
-                <p>Enterprises benefit greatly from decoupling data administration from campaign management...</p>
-                <h3>A new model</h3>
-                <p>This last trend has the potential to be the most significant...</p>
-                <p>The increased relevance of Outbound marketing consumer engagement has an influence across the entire corporate stack...</p>
-                <h3>Today’s outbound marketing technology</h3>
-                <p>Marketers have traditionally loved outbound marketing because...</p>
-                <h3>The great decoupling</h3>
-                <p>A new architectural pattern arose in the late 2010s that detached shared, basic enterprise services from specific customer engagement channels...</p>
-                <h3>Decoupling data, content and decisioning</h3>
-                <p>Enterprises benefit greatly from decoupling data administration from campaign management...</p>
-                <h3>A new model</h3>
-                <p>This last trend has the potential to be the most significant...</p>
+              <div id="blog-content" className="rich-text w-richtext text-left">
+                <motion.div
+                  initial="hidden"
+                  animate="visible"
+                  variants={{
+                    hidden: { opacity: 0, y: 20 },
+                    visible: {
+                      opacity: 1, y: 0, transition: { staggerChildren: 0.1 }
+                    },
+                  }}
+                >
+                  <motion.p
+                    className="text-black mb-4 fs-5"
+                    variants={{
+                      hidden: { opacity: 0, y: 20 },
+                      visible: { opacity: 1, y: 0 },
+                    }}
+                  >
+                    US Staffing is the process of hiring candidates for the US companies or clients by evaluating their skills, knowledge for a job position for which they are applying for. US IT Staffing Firm have a process of screening candidates by using tools to check candidates knowledge for a technology-specific role. Staffing is the process of hiring eligible candidates in the organization or company for specific positions. In management, the meaning of staffing is an operation of recruiting the employees by evaluating their skills, knowledge and then offering them specific job roles accordingly.
+                  </motion.p>
+                  <motion.ul
+                    className="text-black mb-4"
+                    variants={{
+                      hidden: { opacity: 0, y: 20 },
+                      visible: { opacity: 1, y: 0 },
+                    }}
+                  >
+                    <motion.li
+                    className="fs-5"
+                      variants={{
+                        hidden: { opacity: 0, y: 20 },
+                        visible: { opacity: 1, y: 0 },
+                      }}
+                    >
+                      “The Right Stuff”: Contract Employment/Short-Term Staffing. This strategy is generally used when demand exceeds the number of core positions needed to accommodate minimum production goals.
+                    </motion.li>
+                    <motion.li
+                    className="fs-5"
+                      variants={{
+                        hidden: { opacity: 0, y: 20 },
+                        visible: { opacity: 1, y: 0 },
+                      }}
+                    >
+                      “Let's Go Shopping”: Contract-to-Hire. It's kind of like buying a new car.
+                    </motion.li>
+                    <motion.li
+                    className="fs-5"
+                      variants={{
+                        hidden: { opacity: 0, y: 20 },
+                        visible: { opacity: 1, y: 0 },
+                      }}
+                    >
+                      “Busy Business”: Direct Placement Hire.
+                    </motion.li>
+                  </motion.ul>
+                </motion.div>
               </div>
             </div>
           </div>
         </div>
-       
       </div>
     </div>
-    </div>
-  )
+  );
 }
 
-export default ITSTaffing
+export default Itstaffing;

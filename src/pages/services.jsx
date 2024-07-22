@@ -138,11 +138,10 @@ const services = () => {
             style={{ backgroundImage: `url(${Lorvish})` }}
           />
           <div className="col-lg-7">
-            <h2>CLOUD OFFERINGS</h2>
             <div className="our-story">
-              <h3>Lorvish offers</h3>
+              <h3>CLOUD OFFERINGS</h3>
               <p>
-              Lorvish offers full range of consultancy & training methods for data analysis, business consul tation, and strategic ways for business.
+              A cloud service is any service made available to users on demand via the Internet from a cloud computing provider's servers as opposed to being provided from a company's own on-premises servers.
               </p>
               <ul>
                 <li>
@@ -170,7 +169,7 @@ const services = () => {
                   Read More
                 </a>
               </div> */}
-            <a href="/lorvishOffers" className="btn btn-outline-primary mt-3 w-100">Read More</a>
+            <a href="lorvishOffers" className="btn btn-outline-primary mt-3 w-100">Read More</a>
 
             </div>
           </div>
@@ -193,7 +192,7 @@ const services = () => {
           <div className="col-lg-5 d-flex flex-column justify-content-center">
             <h3>MANAGED SERVICES</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt veniam error ratione voluptatum repellendus ex doloribus accusamus suscipit quia sint. Qui perspiciatis aspernatur quo. Esse.
+            Managed services is the practice of outsourcing the responsibility for maintaining, and anticipating need for, a range of processes and functions in order to improve operations and cut expenses.
             </p>
             <div
               className="icon-box d-flex position-relative"
@@ -208,8 +207,7 @@ const services = () => {
                   </a>
                 </h4>
                 <p>
-                  Voluptatum deleniti atque corrupti quos dolores et quas
-                  molestias excepturi sint occaecati cupiditate non provident
+                The managed service provider assumes ongoing responsibility for monitoring, managing and/or problem resolution for selected IT systems and functions on your behalf. ... At the upper end of the spectrum, service providers offer fully managed services that cover everything from alerts through problem resolution
                 </p>
               </div>
             </div>
@@ -227,8 +225,7 @@ const services = () => {
                   </a>
                 </h4>
                 <p>
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis praesentium voluptatum deleniti atque
+                Managed services are on-going and typically work off of a contract. They can cover many aspects of an organization's IT needs on a daily basis. Professional services are project-based and usually address a specific problem or challenge.
                 </p>
               </div>
             </div>
@@ -252,26 +249,7 @@ const services = () => {
               </div>
             </div>
             {/* End Icon Box */}
-            <div
-              className="icon-box d-flex position-relative"
-              data-aos="fade-up"
-              data-aos-delay={400}
-            >
-              <i className="bi bi-brightness-high flex-shrink-0" />
-              <div>
-                <h4>
-                  <a href="#" className="stretched-link">
-                    Global Reach
-                  </a>
-                </h4>
-                <p>
-                  Est voluptatem labore deleniti quis a delectus et. Saepe
-                  dolorem libero sit non aspernatur odit amet. Et eligendi
-                </p>
-              </div>
-            </div>
-            {/* End Icon Box */}
-            <a href="/managedservice" className="btn btn-outline-primary mt-3 w-100">Read More</a>
+            <a href="managedservice" className="btn btn-outline-primary mt-3 w-100">Read More</a>
           </div>
         </div>
       </div>
@@ -286,9 +264,7 @@ const services = () => {
             ERP TECHNOLOGIES
             </h3>
             <p>
-              Maxime quia dolorum alias perspiciatis. Earum voluptatem sint at
-              non. Ducimus maxime minima iste magni sit praesentium assumenda
-              minus. Amet rerum saepe tempora vero.
+            Enterprise resource planning (ERP) refers to a type of software that organizations use to manage day-to-day business activities such as accounting, procurement, project management, risk management and compliance, and supply chain operations. A complete ERP suite also includes enterprise performance management, software that helps plan, budget, predict, and report on an organization’s financial results.
             </p>
             <div
               className="icon-box d-flex position-relative"
@@ -303,12 +279,12 @@ const services = () => {
                   </a>
                 </h4>
                 <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa itaque minus quidem, quibusdam ipsam mollitia fuga voluptatum!
+                ERP systems tie together a multitude of business processes and enable the flow of data between them. By collecting an organization’s shared transactional data from multiple sources, ERP systems eliminate data duplication and provide data integrity with a single source of truth.
                 </p>
               </div>
             </div>
             {/* End Icon Box */}
-            {/* <a href="/ERP" className="btn btn-outline-primary mt-3 w-100">Read More</a> */}
+            {/* <a href="ERP" className="btn btn-outline-primary mt-3 w-100">Read More</a> */}
             <div
               className="icon-box d-flex position-relative"
               data-aos="fade-up"
@@ -322,46 +298,7 @@ const services = () => {
                   </a>
                 </h4>
                 <p>
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis praesentium voluptatum deleniti atque
-                </p>
-              </div>
-            </div>
-            {/* End Icon Box */}
-            <div
-              className="icon-box d-flex position-relative"
-              data-aos="fade-up"
-              data-aos-delay={300}
-            >
-              <i className="bi bi-brightness-high flex-shrink-0" />
-              <div>
-                <h4>
-                  <a href="" className="stretched-link">
-                    Dine Pad
-                  </a>
-                </h4>
-                <p>
-                  Explicabo est voluptatum asperiores consequatur magnam. Et
-                  veritatis odit. Sunt aut deserunt minus aut eligendi omnis
-                </p>
-              </div>
-            </div>
-            {/* End Icon Box */}
-            <div
-              className="icon-box d-flex position-relative"
-              data-aos="fade-up"
-              data-aos-delay={400}
-            >
-              <i className="bi bi-brightness-high flex-shrink-0" />
-              <div>
-                <h4>
-                  <a href="" className="stretched-link">
-                    Tride clov
-                  </a>
-                </h4>
-                <p>
-                  Est voluptatem labore deleniti quis a delectus et. Saepe
-                  dolorem libero sit non aspernatur odit amet. Et eligendi
+                Today, ERP systems are critical for managing thousands of businesses of all sizes and in all industries. To these companies, ERP is as indispensable as the electricity that keeps the lights on.
                 </p>
               </div>
             </div>
@@ -394,9 +331,7 @@ const services = () => {
             IT STAFFING
             </h3>
             <p>
-              Maxime quia dolorum alias perspiciatis. Earum voluptatem sint at
-              non. Ducimus maxime minima iste magni sit praesentium assumenda
-              minus. Amet rerum saepe tempora vero.
+            US Staffing is the process of hiring candidates for the US companies or clients by evaluating their skills, knowledge for a job position for which they are applying for. US IT Staffing Firm have a process of screening candidates by using tools to check candidates knowledge for a technology-specific role.
             </p>
             <div
               className="icon-box d-flex position-relative"
@@ -411,7 +346,7 @@ const services = () => {
                   </a>
                 </h4>
                 <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa itaque minus quidem, quibusdam ipsam mollitia fuga voluptatum!
+                Staffing is the process of hiring eligible candidates in the organization or company for specific positions. In management, the meaning of staffing is an operation of recruiting the employees by evaluating their skills, knowledge and then offering them specific job roles accordingly.
                 </p>
               </div>
             </div>
@@ -429,8 +364,7 @@ const services = () => {
                   </a>
                 </h4>
                 <p>
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis praesentium voluptatum deleniti atque
+                “The Right Stuff”: Contract Employment/Short-Term Staffing. This strategy is generally used when demand exceeds the number of core positions needed to accommodate minimum production goals. ...
                 </p>
               </div>
             </div>
@@ -448,8 +382,7 @@ const services = () => {
                   </a>
                 </h4>
                 <p>
-                  Explicabo est voluptatum asperiores consequatur magnam. Et
-                  veritatis odit. Sunt aut deserunt minus aut eligendi omnis
+                “The Right Stuff”: Contract Employment/Short-Term Staffing. This strategy is generally used when demand exceeds the number of core positions needed to accommodate minimum production goals. ...
                 </p>
               </div>
             </div>
@@ -467,13 +400,13 @@ const services = () => {
                   </a>
                 </h4>
                 <p>
-                  Est voluptatem labore deleniti quis a delectus et. Saepe
-                  dolorem libero sit non aspernatur odit amet. Et eligendi
+                “Lets Go Shopping”: Contract-to-Hire. It's kind of like buying a new car. ...
+                “Busy Business”: Direct Placement Hire.
                 </p>
               </div>
             </div>
             {/* End Icon Box */}
-            <a href="/Itstaffing" className="btn btn-outline-primary mt-3 w-100">Read More</a>
+            <a href="Itstaffing" className="btn btn-outline-primary mt-3 w-100">Read More</a>
 
           </div>
         </div>
@@ -489,9 +422,7 @@ const services = () => {
             PROJECT OUTSOURCING
             </h3>
             <p>
-              Maxime quia dolorum alias perspiciatis. Earum voluptatem sint at
-              non. Ducimus maxime minima iste magni sit praesentium assumenda
-              minus. Amet rerum saepe tempora vero.
+            Outsourcing allows a company to subcontract a particular area within the organization. A company may outsource project management or any other task or department for one or more reasons. However, in general, organizations commonly choose to outsource to save money or make use of expertise outside the company.
             </p>
             <div
               className="icon-box d-flex position-relative"
@@ -506,7 +437,7 @@ const services = () => {
                   </a>
                 </h4>
                 <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa itaque minus quidem, quibusdam ipsam mollitia fuga voluptatum!
+                Outsourcing sites are best for finding people to do project based work. If you want a longer term full time person you might want to try hiring them directly. Target the country or area where you are most likely to find the right staff.
                 </p>
               </div>
             </div>
@@ -524,51 +455,12 @@ const services = () => {
                   </a>
                 </h4>
                 <p>
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis praesentium voluptatum deleniti atque
+                Start out by talking with various companies and getting a feel for their needs and go from there. Take on an outsource project from them to start and see how the dynamic is. If you mesh well together, perhaps they will feed you more work.
                 </p>
               </div>
             </div>
             {/* End Icon Box */}
-            <div
-              className="icon-box d-flex position-relative"
-              data-aos="fade-up"
-              data-aos-delay={300}
-            >
-              <i className="bi bi-brightness-high flex-shrink-0" />
-              <div>
-                <h4>
-                  <a href="" className="stretched-link">
-                    Dine Pad
-                  </a>
-                </h4>
-                <p>
-                  Explicabo est voluptatum asperiores consequatur magnam. Et
-                  veritatis odit. Sunt aut deserunt minus aut eligendi omnis
-                </p>
-              </div>
-            </div>
-            {/* End Icon Box */}
-            <div
-              className="icon-box d-flex position-relative"
-              data-aos="fade-up"
-              data-aos-delay={400}
-            >
-              <i className="bi bi-brightness-high flex-shrink-0" />
-              <div>
-                <h4>
-                  <a href="" className="stretched-link">
-                    Tride clov
-                  </a>
-                </h4>
-                <p>
-                  Est voluptatem labore deleniti quis a delectus et. Saepe
-                  dolorem libero sit non aspernatur odit amet. Et eligendi
-                </p>
-              </div>
-            </div>
-            {/* End Icon Box */}
-            <a href="/projectoutsourcing" className="btn btn-outline-primary mt-3 w-100">Read More</a>
+            <a href="projectoutsourcing" className="btn btn-outline-primary mt-3 w-100">Read More</a>
 
           </div>
           <div
