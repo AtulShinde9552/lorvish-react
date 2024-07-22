@@ -8,7 +8,7 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import Header from './compoents/Header'
 import LorvishOffers from './pages/servicepages/LorvishOffers'
 import ManagedService from './pages/servicepages/ManagedService'
-import ERP from './pages/servicepages/ERP'
+import ERP from './pages/ERP'
 import ITSTaffing from './pages/servicepages/ITSTaffing'
 import ProjectOutsourcing from './pages/servicepages/ProjectOutsourcing'
 
@@ -27,7 +27,7 @@ const App = () => {
 
       <Route path='/services/lorvishOffers' element={<LorvishOffers/>}/>
       <Route path='/services/managedservice' element={<ManagedService/>}/>
-      <Route path='/services/ERP' element={<ERP/>}/>
+      <Route path='/services/erp' element={<ERP/>}/>
       <Route path='/services/Itstaffing' element={<ITSTaffing/>}/>
       <Route path='/services/projectoutsourcing' element={<ProjectOutsourcing/>}/>
      

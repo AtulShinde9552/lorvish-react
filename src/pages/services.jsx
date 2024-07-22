@@ -366,7 +366,7 @@ const services = () => {
               </div>
             </div>
             {/* End Icon Box */}
-            <a href="/services/ERP" className="btn btn-outline-primary mt-3 w-100">Read More</a>
+            <a href="/services/erp" className="btn btn-outline-primary mt-3 w-100">Read More</a>
 
           </div>
           <div

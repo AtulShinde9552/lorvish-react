@@ -1,5 +1,5 @@
 import React from 'react';
-import erp from "../../assets/img/services/erp.jpg";
+import ERPIMG from "../assets/img/services/erp.jpg";
 import { motion } from 'framer-motion';
 
 function ERP() {
@@ -12,7 +12,7 @@ function ERP() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
           >
-            <img id="blog-image" className="img-fluid mb-4 rounded" alt="Blog Image" src={erp} />
+            <img id="blog-image" className="img-fluid mb-4 rounded" alt="Blog Image" src={ERPIMG} />
           </motion.div>
           <motion.h1
             id="blog-title"
