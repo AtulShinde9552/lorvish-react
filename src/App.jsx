@@ -27,7 +27,7 @@ const App = () => {
 
       <Route path='/services/lorvishOffers' element={<LorvishOffers/>}/>
       <Route path='/services/managedservice' element={<ManagedService/>}/>
-      <Route path='/services/erp' element={<ERP/>}/>
+      <Route path='/erp' element={<ERP/>}/>
       <Route path='/services/Itstaffing' element={<ITSTaffing/>}/>
       <Route path='/services/projectoutsourcing' element={<ProjectOutsourcing/>}/>
      
